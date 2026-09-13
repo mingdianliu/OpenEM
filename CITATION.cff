@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use OpenEM in your work, please cite it as below."
+title: "OpenEM: a CUDA FDTD solver for differential validation against Tidy3D"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Mingdian
+version: 0.1.0
+date-released: 2026-09-11
+repository-code: "https://github.com/mingdianliu/OpenEM"
+license: GPL-3.0-or-later
+keywords:
+  - FDTD
+  - electromagnetics
+  - photonics
+  - CUDA
+  - tidy3d
+  - differential-testing

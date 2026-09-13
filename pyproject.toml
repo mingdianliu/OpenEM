@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openem"
+version = "0.1.0"
+description = "A CUDA FDTD solver that runs Tidy3D Simulation objects locally, built for differential validation against the reference solver."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Mingdian Liu" }]
+keywords = ["FDTD", "electromagnetics", "photonics", "CUDA", "tidy3d", "inverse-design"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Environment :: GPU :: NVIDIA CUDA",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "tidy3d>=2.8",
+]
+
+[project.optional-dependencies]
+gpu = ["cupy-cuda12x>=13"]
+# tidy3d-extras is Flexcompute's add-on; it supplies the subpixel-averaged epsilon tensor.
+# The solver works without it: build the simulation with subpixel=False (staircasing).
+# Test cases that need it skip themselves.
+subpixel = ["tidy3d-extras"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.urls]
+Homepage = "https://github.com/mingdianliu/OpenEM"
+
+[tool.setuptools]
+packages = { find = { include = ["openem*"] } }
+
+[tool.setuptools.package-data]
+openem = ["kernels/*.cu"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"

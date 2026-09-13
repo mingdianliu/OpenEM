@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+# Run artifacts
+*.npz
+*.hdf5
+*.h5
+*.log
+nbruns/
+cache/
+.cupy_cache/
+golden_out/
+# Working drafts, not part of the release
+docs/_source/
+openem/_nb_source.py.orig
+golden/
