@@ -1,0 +1,63 @@
+{
+ "notebook": "StartHere",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 12,
+  "openem": 12,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 4,
+  "n_numbers_compared": 4,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 1,
+  "n_figures_openem": 1,
+  "max_pixel_diff": 0.042286389733198246
+ },
+ "numbers": [
+  {
+   "cell": 7,
+   "label": "simulation grid is shaped [179, 147, 147] for 3 million cells.",
+   "reference": 179.0,
+   "openem": 179.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "simulation grid is shaped [179, 147, 147] for 3 million cells.",
+   "reference": 147.0,
+   "openem": 147.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "simulation grid is shaped [179, 147, 147] for 3 million cells.",
+   "reference": 147.0,
+   "openem": 147.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "simulation grid is shaped [179, 147, 147] for 3 million cells.",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.042286389733198246
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "notebook": "90BendPolarizationSplitterRotator",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 21,
+  "openem": 21,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 11,
+  "n_figures_openem": 10,
+  "max_pixel_diff": 0.13304670449585335
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.023690808797191775
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.07452013794000911
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.13304670449585335
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.05901222837313063
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.057407254399735604
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.0730612507333853
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.04678342031312726
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.07668921227027396
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.04746587715776796
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.0706504824151883
+  }
+ ]
+}

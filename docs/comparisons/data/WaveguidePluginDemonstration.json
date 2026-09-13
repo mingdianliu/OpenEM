@@ -1,0 +1,372 @@
+{
+ "notebook": "WaveguidePluginDemonstration",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 24,
+  "openem": 24,
+  "mismatched": 4
+ },
+ "summary": {
+  "n_numbers_total": 32,
+  "n_numbers_compared": 32,
+  "max_rel_diff": 3.9199301366485885e-07,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 18,
+  "n_figures_openem": 18,
+  "max_pixel_diff": 0.07204718466282806
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "Effective indices: [[2.53287852 1.89256577]]",
+   "reference": 2.53287852,
+   "openem": 2.53287852,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "Effective indices: [[2.53287852 1.89256577]]",
+   "reference": 1.89256577,
+   "openem": 1.89256579,
+   "rel_diff": 1.0567664382121093e-08,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 15",
+   "reference": 15.0,
+   "openem": 15.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 21",
+   "reference": 21.0,
+   "openem": 21.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 24",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 27",
+   "reference": 27.0,
+   "openem": 27.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 33",
+   "reference": 33.0,
+   "openem": 33.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 36",
+   "reference": 36.0,
+   "openem": 36.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 39",
+   "reference": 39.0,
+   "openem": 39.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 42",
+   "reference": 42.0,
+   "openem": 42.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Solving for resolution = 45",
+   "reference": 45.0,
+   "openem": 45.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Curvature loss: 14.9 dB/cm",
+   "reference": 14.9,
+   "openem": 14.9,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 5.00",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 6.46",
+   "reference": 6.46,
+   "openem": 6.46,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 8.34",
+   "reference": 8.34,
+   "openem": 8.34,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 10.77",
+   "reference": 10.77,
+   "openem": 10.77,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 13.91",
+   "reference": 13.91,
+   "openem": 13.91,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 17.97",
+   "reference": 17.97,
+   "openem": 17.97,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 23.21",
+   "reference": 23.21,
+   "openem": 23.21,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 29.97",
+   "reference": 29.97,
+   "openem": 29.97,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 38.71",
+   "reference": 38.71,
+   "openem": 38.71,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "Solving for radius = 50.00",
+   "reference": 50.0,
+   "openem": 50.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective indices: [[2.58790025 2.55348271 1.98156471 1.85005072]]",
+   "reference": 2.58790025,
+   "openem": 2.58790025,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective indices: [[2.58790025 2.55348271 1.98156471 1.85005072]]",
+   "reference": 2.55348271,
+   "openem": 2.55348271,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective indices: [[2.58790025 2.55348271 1.98156471 1.85005072]]",
+   "reference": 1.98156471,
+   "openem": 1.98156472,
+   "rel_diff": 5.046516971542802e-09,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective indices: [[2.58790025 2.55348271 1.98156471 1.85005072]]",
+   "reference": 1.85005072,
+   "openem": 1.85005074,
+   "rel_diff": 1.0810514361709272e-08,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective mode areas (µm²): [[0.37130773 0.35534603 0.63694388 0.61225581]]",
+   "reference": 0.37130773,
+   "openem": 0.37130773,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective mode areas (µm²): [[0.37130773 0.35534603 0.63694388 0.61225581]]",
+   "reference": 0.35534603,
+   "openem": 0.35534603,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective mode areas (µm²): [[0.37130773 0.35534603 0.63694388 0.61225581]]",
+   "reference": 0.63694388,
+   "openem": 0.63694405,
+   "rel_diff": 2.6689949507958325e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "Effective mode areas (µm²): [[0.37130773 0.35534603 0.63694388 0.61225581]]",
+   "reference": 0.61225581,
+   "openem": 0.61225605,
+   "rel_diff": 3.9199301366485885e-07,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.03161702127659574
+  },
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.05719495675732
+  },
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.05401947192311301
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.03436454849498328
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.038181972212809216
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.03659071524308517
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.04774424082724478
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.02787966460760049
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.04189322691808048
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.02799456255477122
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.06293653445340716
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.07204718466282806
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.04132083421108068
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.06706929434202162
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.027326899173795424
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.05423918298283781
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.04433378069741706
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.04563343974341681
+  }
+ ]
+}

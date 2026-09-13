@@ -1,0 +1,50 @@
+{
+ "notebook": "GrapheneMetamaterial",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.06054426664747419
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.06054426664747419
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.039690604727124254
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.030196163104063208
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.058365185539098585
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.047497467071935154
+  }
+ ]
+}

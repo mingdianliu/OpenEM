@@ -1,0 +1,50 @@
+{
+ "notebook": "CustomFieldSource",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 16,
+  "openem": 16,
+  "mismatched": 4
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.08928714457348819
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.0100369527682303
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.05646699845953312
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.045639788624407276
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.08928714457348819
+  }
+ ]
+}

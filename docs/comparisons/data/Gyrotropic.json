@@ -1,0 +1,40 @@
+{
+ "notebook": "Gyrotropic",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 19,
+  "openem": 19,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.020514910963312594
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.020514910963312594
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.01848101265822785
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "notebook": "VortexMetasurface",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 1,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 0.9995942447130164,
+  "n_over_5pct": 1,
+  "n_over_20pct": 1,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.09831713132795304
+ },
+ "numbers": [
+  {
+   "cell": 9,
+   "label": "2.464539667330026",
+   "reference": 2.464539667330026,
+   "openem": 0.001,
+   "rel_diff": 0.9995942447130164,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.015323615607102496
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.09831713132795304
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.09664948453608248
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05243585357509408
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.0
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "notebook": "GratingCoupler",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 19,
+  "openem": 19,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 3,
+  "n_numbers_compared": 3,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.07836596567561034
+ },
+ "numbers": [
+  {
+   "cell": 9,
+   "label": "Calculated grating period is 608 nm",
+   "reference": 608.0,
+   "openem": 608.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Optimal period is 620.0 nm.",
+   "reference": 620.0,
+   "openem": 620.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Optimal source_x is 3.8 μm.",
+   "reference": 3.8,
+   "openem": 3.8,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.06507684154742978
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.028129506873602456
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.07836596567561034
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.04517684120089733
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "notebook": "FullyAnisotropic",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 19,
+  "openem": 19,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.11568992102336177
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.11568992102336177
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.07970432722064051
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.07698840927258194
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.07622380918352918
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.07258244757275502
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "notebook": "GradientMetasurfaceReflector",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 24,
+  "openem": 24,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 8,
+  "max_pixel_diff": 0.0735910878112713
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.04917348608837971
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.054323269130661114
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.037377570214698064
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.0735910878112713
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.05089198036006547
+  }
+ ]
+}

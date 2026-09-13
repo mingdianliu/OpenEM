@@ -1,0 +1,123 @@
+{
+ "notebook": "MultipoleExpansion",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 11,
+  "openem": 11,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 9,
+  "n_numbers_compared": 9,
+  "max_rel_diff": 0.9927363302951461,
+  "n_over_5pct": 1,
+  "n_over_20pct": 1,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.057823566736979304
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "0.13767145817929347",
+   "reference": 0.13767145817929347,
+   "openem": 0.001,
+   "rel_diff": 0.9927363302951461,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 1 done",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 2 done",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 3 done",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 4 done",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 5 done",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 6 done",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 7 done",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "slice 8 done",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.057823566736979304
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.041685528896936774
+  },
+  {
+   "cell": 10,
+   "index": 1,
+   "pixel_diff": 0.03609853629093104
+  },
+  {
+   "cell": 10,
+   "index": 2,
+   "pixel_diff": 0.030135600839077015
+  },
+  {
+   "cell": 10,
+   "index": 3,
+   "pixel_diff": 0.04067275996403956
+  }
+ ]
+}

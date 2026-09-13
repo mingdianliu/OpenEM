@@ -1,0 +1,199 @@
+{
+ "notebook": "Autograd0Quickstart",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 5,
+  "openem": 5,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 21,
+  "n_numbers_compared": 21,
+  "max_rel_diff": 0.015854374633000587,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 1,
+  "n_figures_openem": 1,
+  "max_pixel_diff": 0.045965475712565235
+ },
+ "numbers": [
+  {
+   "cell": 3,
+   "label": "Iteration = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 2.68",
+   "reference": 2.68,
+   "openem": 2.68,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 861",
+   "reference": 861.0,
+   "openem": 860.0,
+   "rel_diff": 0.0011614401858304297,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 2.89",
+   "reference": 2.89,
+   "openem": 2.9,
+   "rel_diff": 0.0034602076124566734,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 1068",
+   "reference": 1068.0,
+   "openem": 1072.0,
+   "rel_diff": 0.003745318352059925,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 3.07",
+   "reference": 3.07,
+   "openem": 3.07,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 1258",
+   "reference": 1258.0,
+   "openem": 1261.0,
+   "rel_diff": 0.0023847376788553257,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 3.25",
+   "reference": 3.25,
+   "openem": 3.26,
+   "rel_diff": 0.0030769230769230114,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 1402",
+   "reference": 1402.0,
+   "openem": 1409.0,
+   "rel_diff": 0.004992867332382311,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 3.72",
+   "reference": 3.72,
+   "openem": 3.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 1703",
+   "reference": 1703.0,
+   "openem": 1730.0,
+   "rel_diff": 0.015854374633000587,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 3.90",
+   "reference": 3.9,
+   "openem": 3.89,
+   "rel_diff": 0.0025641025641025095,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 2233",
+   "reference": 2233.0,
+   "openem": 2232.0,
+   "rel_diff": 0.0004478280340349306,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "Iteration = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "size_box = 4.08",
+   "reference": 4.08,
+   "openem": 4.09,
+   "rel_diff": 0.0024509803921568107,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "intensity = 2432",
+   "reference": 2432.0,
+   "openem": 2429.0,
+   "rel_diff": 0.0012335526315789473,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.045965475712565235
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "notebook": "WaveguideToRingCoupling",
+ "category": "Example Library",
+ "verdict": "close",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 21,
+  "openem": 21,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 5,
+  "n_numbers_compared": 5,
+  "max_rel_diff": 3.7846655791190864,
+  "n_over_5pct": 5,
+  "n_over_20pct": 4,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.19729286020831488
+ },
+ "numbers": [
+  {
+   "cell": 17,
+   "label": "max |through difference|: 4.867e-05",
+   "reference": 4.867e-05,
+   "openem": 7.659e-05,
+   "rel_diff": 0.5736593384014793,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "max |drop difference|: 3.060e-05",
+   "reference": 3.06e-05,
+   "openem": 9.043e-05,
+   "rel_diff": 1.9552287581699348,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "max backward drop power, PML extrusion: 2.075e-05",
+   "reference": 2.075e-05,
+   "openem": 1.889e-05,
+   "rel_diff": 0.08963855421686744,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "max backward drop power, absorber: 1.226e-05",
+   "reference": 1.226e-05,
+   "openem": 5.866e-05,
+   "rel_diff": 3.7846655791190864,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "max |backward drop power difference|: 1.320e-05",
+   "reference": 1.32e-05,
+   "openem": 4.835e-05,
+   "rel_diff": 2.6628787878787876,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.048348214285714286
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.03041157465936227
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.19729286020831488
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.07759883214428669
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.05427362308096253
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.019559099437148217
+  }
+ ]
+}

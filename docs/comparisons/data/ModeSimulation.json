@@ -1,0 +1,3486 @@
+{
+ "notebook": "ModeSimulation",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 37,
+  "openem": 37,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 420,
+  "n_numbers_compared": 246,
+  "max_rel_diff": 0.0032885246356528183,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 20,
+  "n_figures_openem": 20,
+  "max_pixel_diff": 0.09752433209223332
+ },
+ "numbers": [
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 124913500000000.0,
+   "openem": 124913500000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 2.4,
+   "openem": 2.4,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 1.665629,
+   "openem": 1.665624,
+   "rel_diff": 4.002769916808636e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0             2.400000  1.665629    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.400000  1.585148    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.400000  1.585148    0.0           0.0",
+   "reference": 2.4,
+   "openem": 2.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.400000  1.585148    0.0           0.0",
+   "reference": 1.585148,
+   "openem": 1.585152,
+   "rel_diff": 2.5234236802449854e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.400000  1.585148    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.400000  1.585148    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.400000  1.251849    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.400000  1.251849    0.0           0.0",
+   "reference": 2.4,
+   "openem": 2.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.400000  1.251849    0.0           0.0",
+   "reference": 1.251849,
+   "openem": 1.251541,
+   "rel_diff": 0.00024603606345491747,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.400000  1.251849    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.400000  1.251849    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 129910100000000.0,
+   "openem": 129910100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 2.307692,
+   "openem": 2.307692,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 1.687054,
+   "openem": 1.687051,
+   "rel_diff": 2.3092892700223035e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0             2.307692  1.687054    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.307692  1.613551    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.307692  1.613551    0.0           0.0",
+   "reference": 2.307692,
+   "openem": 2.307692,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.307692  1.613551    0.0           0.0",
+   "reference": 1.613551,
+   "openem": 1.613553,
+   "rel_diff": 1.239502191165641e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.307692  1.613551    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.307692  1.613551    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.307692  1.298599    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.307692  1.298599    0.0           0.0",
+   "reference": 2.307692,
+   "openem": 2.307692,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.307692  1.298599    0.0           0.0",
+   "reference": 1.298599,
+   "openem": 1.298437,
+   "rel_diff": 0.00012474982654383338,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.307692  1.298599    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.307692  1.298599    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 134906600000000.0,
+   "openem": 134906600000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 2.222222,
+   "openem": 2.222222,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 1.706448,
+   "openem": 1.706446,
+   "rel_diff": 1.48250715684593e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0             2.222222  1.706448    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.222222  1.639233    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.222222  1.639233    0.0           0.0",
+   "reference": 2.222222,
+   "openem": 2.222222,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.222222  1.639233    0.0           0.0",
+   "reference": 1.639233,
+   "openem": 1.639234,
+   "rel_diff": 6.100414035953266e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.222222  1.639233    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.222222  1.639233    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.222222  1.341924    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.222222  1.341924    0.0           0.0",
+   "reference": 2.222222,
+   "openem": 2.222222,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.222222  1.341924    0.0           0.0",
+   "reference": 1.341924,
+   "openem": 1.341839,
+   "rel_diff": 6.334188821415425e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.222222  1.341924    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.222222  1.341924    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 139903100000000.0,
+   "openem": 139903100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 2.142857,
+   "openem": 2.142857,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 1.724058,
+   "openem": 1.724057,
+   "rel_diff": 7.147804445646866e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0             2.142857  1.724058    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.142857  1.662497    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.142857  1.662497    0.0           0.0",
+   "reference": 2.142857,
+   "openem": 2.142857,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.142857  1.662497    0.0           0.0",
+   "reference": 1.662497,
+   "openem": 1.662497,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.142857  1.662497    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.142857  1.662497    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.142857  1.381944    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.142857  1.381944    0.0           0.0",
+   "reference": 2.142857,
+   "openem": 2.142857,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.142857  1.381944    0.0           0.0",
+   "reference": 1.381944,
+   "openem": 1.3819,
+   "rel_diff": 3.183920621975639e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.142857  1.381944    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.142857  1.381944    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 144899700000000.0,
+   "openem": 144899700000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 2.068966,
+   "openem": 2.068966,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 1.740098,
+   "openem": 1.740097,
+   "rel_diff": 6.901325537028257e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0             2.068966  1.740098    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.068966  1.683618    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.068966  1.683618    0.0           0.0",
+   "reference": 2.068966,
+   "openem": 2.068966,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.068966  1.683618    0.0           0.0",
+   "reference": 1.683618,
+   "openem": 1.683618,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.068966  1.683618    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.068966  1.683618    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.068966  1.418839    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.068966  1.418839    0.0           0.0",
+   "reference": 2.068966,
+   "openem": 2.068966,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.068966  1.418839    0.0           0.0",
+   "reference": 1.418839,
+   "openem": 1.418816,
+   "rel_diff": 1.621043684299926e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.068966  1.418839    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.068966  1.418839    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 149896200000000.0,
+   "openem": 149896200000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 1.754749,
+   "openem": 1.754749,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0             2.000000  1.754749    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.000000  1.702838    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.000000  1.702838    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.000000  1.702838    0.0           0.0",
+   "reference": 1.702838,
+   "openem": 1.702838,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             2.000000  1.702838    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             2.000000  1.702838    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.000000  1.452819    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.000000  1.452819    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.000000  1.452819    0.0           0.0",
+   "reference": 1.452819,
+   "openem": 1.452807,
+   "rel_diff": 8.259803871041762e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             2.000000  1.452819    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             2.000000  1.452819    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 154892800000000.0,
+   "openem": 154892800000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 1.935484,
+   "openem": 1.935484,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 1.76817,
+   "openem": 1.768169,
+   "rel_diff": 6.456078009550692e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0             1.935484  1.768170    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.935484  1.720370    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.935484  1.720370    0.0           0.0",
+   "reference": 1.935484,
+   "openem": 1.935484,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.935484  1.720370    0.0           0.0",
+   "reference": 1.72037,
+   "openem": 1.72037,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.935484  1.720370    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.935484  1.720370    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.935484  1.484107    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.935484  1.484107    0.0           0.0",
+   "reference": 1.935484,
+   "openem": 1.935484,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.935484  1.484107    0.0           0.0",
+   "reference": 1.484107,
+   "openem": 1.4841,
+   "rel_diff": 4.716641050874544e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.935484  1.484107    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.935484  1.484107    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 159889300000000.0,
+   "openem": 159889300000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 1.875,
+   "openem": 1.875,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 1.780495,
+   "openem": 1.780495,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0             1.875000  1.780495    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.875000  1.736400    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.875000  1.736400    0.0           0.0",
+   "reference": 1.875,
+   "openem": 1.875,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.875000  1.736400    0.0           0.0",
+   "reference": 1.7364,
+   "openem": 1.7364,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.875000  1.736400    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.875000  1.736400    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.875000  1.512926    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.875000  1.512926    0.0           0.0",
+   "reference": 1.875,
+   "openem": 1.875,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.875000  1.512926    0.0           0.0",
+   "reference": 1.512926,
+   "openem": 1.512923,
+   "rel_diff": 1.9829125812995777e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.875000  1.512926    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.875000  1.512926    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 164885900000000.0,
+   "openem": 164885900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 1.818182,
+   "openem": 1.818182,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 1.791842,
+   "openem": 1.791842,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0             1.818182  1.791842    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.818182  1.751091    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.818182  1.751091    0.0           0.0",
+   "reference": 1.818182,
+   "openem": 1.818182,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.818182  1.751091    0.0           0.0",
+   "reference": 1.751091,
+   "openem": 1.751091,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.818182  1.751091    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.818182  1.751091    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.818182  1.539492    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.818182  1.539492    0.0           0.0",
+   "reference": 1.818182,
+   "openem": 1.818182,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.818182  1.539492    0.0           0.0",
+   "reference": 1.539492,
+   "openem": 1.53949,
+   "rel_diff": 1.299129842868629e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.818182  1.539492    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.818182  1.539492    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 169882400000000.0,
+   "openem": 169882400000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 1.764706,
+   "openem": 1.764706,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 1.802313,
+   "openem": 1.802313,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0             1.764706  1.802313    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.764706  1.764586    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.764706  1.764586    0.0           0.0",
+   "reference": 1.764706,
+   "openem": 1.764706,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.764706  1.764586    0.0           0.0",
+   "reference": 1.764586,
+   "openem": 1.764586,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.764706  1.764586    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.764706  1.764586    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.764706  1.564006    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.764706  1.564006    0.0           0.0",
+   "reference": 1.764706,
+   "openem": 1.764706,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.764706  1.564006    0.0           0.0",
+   "reference": 1.564006,
+   "openem": 1.564005,
+   "rel_diff": 6.39383736326928e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.764706  1.564006    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.764706  1.564006    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 174878900000000.0,
+   "openem": 174878900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 1.714286,
+   "openem": 1.714286,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 1.811998,
+   "openem": 1.811998,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0             1.714286  1.811998    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.714286  1.777010    0.0           0.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.714286  1.777010    0.0           0.0",
+   "reference": 1.714286,
+   "openem": 1.714286,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.714286  1.777010    0.0           0.0",
+   "reference": 1.77701,
+   "openem": 1.77701,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1             1.714286  1.777010    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1             1.714286  1.777010    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.714286  1.586655    0.0           0.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.714286  1.586655    0.0           0.0",
+   "reference": 1.714286,
+   "openem": 1.714286,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.714286  1.586655    0.0           0.0",
+   "reference": 1.586655,
+   "openem": 1.586654,
+   "rel_diff": 6.302567350291862e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2             1.714286  1.586655    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "2             1.714286  1.586655    0.0           0.0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0                   0.994538        0.841033        0.885309",
+   "reference": 124913500000000.0,
+   "openem": 124913500000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0                   0.994538        0.841033        0.885309",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0                   0.994538        0.841033        0.885309",
+   "reference": 0.994538,
+   "openem": 0.994537,
+   "rel_diff": 8.005539833795032e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0                   0.994538        0.841033        0.885309",
+   "reference": 0.841033,
+   "openem": 0.84107,
+   "rel_diff": 2.962049738415282e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0                   0.994538        0.841033        0.885309",
+   "reference": 0.885309,
+   "openem": 0.885267,
+   "rel_diff": 3.362326730096146e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.013729        0.728612        0.922021",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.013729        0.728612        0.922021",
+   "reference": 0.013729,
+   "openem": 0.013728,
+   "rel_diff": 7.283851700774022e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.013729        0.728612        0.922021",
+   "reference": 0.728612,
+   "openem": 0.728768,
+   "rel_diff": 0.00021410572430859492,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.013729        0.728612        0.922021",
+   "reference": 0.922021,
+   "openem": 0.921976,
+   "rel_diff": 4.880582980209967e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.232295        0.891250        0.608008",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.232295        0.891250        0.608008",
+   "reference": 0.232295,
+   "openem": 0.231939,
+   "rel_diff": 0.0015325340622914622,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.232295        0.891250        0.608008",
+   "reference": 0.89125,
+   "openem": 0.891238,
+   "rel_diff": 1.3464235624136888e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.232295        0.891250        0.608008",
+   "reference": 0.608008,
+   "openem": 0.606866,
+   "rel_diff": 0.001878264759674176,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0                   0.995389        0.851706        0.889705",
+   "reference": 129910100000000.0,
+   "openem": 129910100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0                   0.995389        0.851706        0.889705",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0                   0.995389        0.851706        0.889705",
+   "reference": 0.995389,
+   "openem": 0.995389,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0                   0.995389        0.851706        0.889705",
+   "reference": 0.851706,
+   "openem": 0.851727,
+   "rel_diff": 1.616502489032705e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0                   0.995389        0.851706        0.889705",
+   "reference": 0.889705,
+   "openem": 0.88968,
+   "rel_diff": 1.924407725029981e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.011830        0.740564        0.926237",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.011830        0.740564        0.926237",
+   "reference": 0.01183,
+   "openem": 0.011829,
+   "rel_diff": 8.453085376170752e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.011830        0.740564        0.926237",
+   "reference": 0.740564,
+   "openem": 0.740653,
+   "rel_diff": 0.0001201786746317749,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.011830        0.740564        0.926237",
+   "reference": 0.926237,
+   "openem": 0.926212,
+   "rel_diff": 2.6990932126379898e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.210227        0.882648        0.632184",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.210227        0.882648        0.632184",
+   "reference": 0.210227,
+   "openem": 0.21002,
+   "rel_diff": 0.000984649926032265,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.210227        0.882648        0.632184",
+   "reference": 0.882648,
+   "openem": 0.882652,
+   "rel_diff": 4.5318178934343026e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.210227        0.882648        0.632184",
+   "reference": 0.632184,
+   "openem": 0.631534,
+   "rel_diff": 0.0010281816686280078,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0                   0.996080        0.861524        0.893893",
+   "reference": 134906600000000.0,
+   "openem": 134906600000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0                   0.996080        0.861524        0.893893",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0                   0.996080        0.861524        0.893893",
+   "reference": 0.99608,
+   "openem": 0.996079,
+   "rel_diff": 7.412535783406693e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0                   0.996080        0.861524        0.893893",
+   "reference": 0.861524,
+   "openem": 0.861537,
+   "rel_diff": 9.636296519251657e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0                   0.996080        0.861524        0.893893",
+   "reference": 0.893893,
+   "openem": 0.893879,
+   "rel_diff": 1.0377550097674622e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.010230        0.752530        0.930123",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.010230        0.752530        0.930123",
+   "reference": 0.01023,
+   "openem": 0.01023,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.010230        0.752530        0.930123",
+   "reference": 0.75253,
+   "openem": 0.752581,
+   "rel_diff": 6.77713845295513e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.010230        0.752530        0.930123",
+   "reference": 0.930123,
+   "openem": 0.930108,
+   "rel_diff": 1.612689934555671e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.188339        0.875946        0.655154",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.188339        0.875946        0.655154",
+   "reference": 0.188339,
+   "openem": 0.188223,
+   "rel_diff": 0.0006159106717143289,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.188339        0.875946        0.655154",
+   "reference": 0.875946,
+   "openem": 0.875955,
+   "rel_diff": 1.0274605968903057e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.188339        0.875946        0.655154",
+   "reference": 0.655154,
+   "openem": 0.654786,
+   "rel_diff": 0.0005616999972526077,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0                   0.996644        0.870537        0.897882",
+   "reference": 139903100000000.0,
+   "openem": 139903100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0                   0.996644        0.870537        0.897882",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0                   0.996644        0.870537        0.897882",
+   "reference": 0.996644,
+   "openem": 0.996644,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0                   0.996644        0.870537        0.897882",
+   "reference": 0.870537,
+   "openem": 0.870544,
+   "rel_diff": 5.0034631112385966e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0                   0.996644        0.870537        0.897882",
+   "reference": 0.897882,
+   "openem": 0.897874,
+   "rel_diff": 5.718243555723927e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.008883        0.764275        0.933710",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.008883        0.764275        0.933710",
+   "reference": 0.008883,
+   "openem": 0.008883,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.008883        0.764275        0.933710",
+   "reference": 0.764275,
+   "openem": 0.764304,
+   "rel_diff": 3.794445716521636e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.008883        0.764275        0.933710",
+   "reference": 0.93371,
+   "openem": 0.933702,
+   "rel_diff": 8.567970783228198e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.167501        0.871088        0.676666",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.167501        0.871088        0.676666",
+   "reference": 0.167501,
+   "openem": 0.167439,
+   "rel_diff": 0.00037014704389828413,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.167501        0.871088        0.676666",
+   "reference": 0.871088,
+   "openem": 0.871098,
+   "rel_diff": 1.1479896405490045e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.167501        0.871088        0.676666",
+   "reference": 0.676666,
+   "openem": 0.676458,
+   "rel_diff": 0.00030738946540831956,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0                   0.997109        0.878799        0.901680",
+   "reference": 144899700000000.0,
+   "openem": 144899700000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0                   0.997109        0.878799        0.901680",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0                   0.997109        0.878799        0.901680",
+   "reference": 0.997109,
+   "openem": 0.997109,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0                   0.997109        0.878799        0.901680",
+   "reference": 0.878799,
+   "openem": 0.878803,
+   "rel_diff": 2.7605302150411632e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0                   0.997109        0.878799        0.901680",
+   "reference": 0.90168,
+   "openem": 0.901675,
+   "rel_diff": 3.450662768820609e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.007747        0.775650        0.937028",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.007747        0.775650        0.937028",
+   "reference": 0.007747,
+   "openem": 0.007747,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.007747        0.775650        0.937028",
+   "reference": 0.77565,
+   "openem": 0.775666,
+   "rel_diff": 2.0627860504113973e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.007747        0.775650        0.937028",
+   "reference": 0.937028,
+   "openem": 0.937023,
+   "rel_diff": 5.336019841372653e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.148226        0.867919        0.696606",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.148226        0.867919        0.696606",
+   "reference": 0.148226,
+   "openem": 0.148192,
+   "rel_diff": 0.0002293794610932377,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.148226        0.867919        0.696606",
+   "reference": 0.867919,
+   "openem": 0.867927,
+   "rel_diff": 9.217450015506055e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.148226        0.867919        0.696606",
+   "reference": 0.696606,
+   "openem": 0.696489,
+   "rel_diff": 0.00016795720967077908,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0                   0.997494        0.886372        0.905296",
+   "reference": 149896200000000.0,
+   "openem": 149896200000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0                   0.997494        0.886372        0.905296",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0                   0.997494        0.886372        0.905296",
+   "reference": 0.997494,
+   "openem": 0.997494,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0                   0.997494        0.886372        0.905296",
+   "reference": 0.886372,
+   "openem": 0.886375,
+   "rel_diff": 2.0013849583746916e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0                   0.997494        0.886372        0.905296",
+   "reference": 0.905296,
+   "openem": 0.905293,
+   "rel_diff": 2.0013849583746916e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.006785        0.786564        0.940102",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.006785        0.786564        0.940102",
+   "reference": 0.006785,
+   "openem": 0.006785,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.006785        0.786564        0.940102",
+   "reference": 0.786564,
+   "openem": 0.786573,
+   "rel_diff": 1.1442171266325096e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.006785        0.786564        0.940102",
+   "reference": 0.940102,
+   "openem": 0.940099,
+   "rel_diff": 3.191143088702337e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.130756        0.866228        0.714964",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.130756        0.866228        0.714964",
+   "reference": 0.130756,
+   "openem": 0.130738,
+   "rel_diff": 0.00013766098687645692,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.130756        0.866228        0.714964",
+   "reference": 0.866228,
+   "openem": 0.866234,
+   "rel_diff": 6.926582839564744e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.130756        0.866228        0.714964",
+   "reference": 0.714964,
+   "openem": 0.714898,
+   "rel_diff": 9.231234020175909e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0                   0.997815        0.893316        0.908738",
+   "reference": 154892800000000.0,
+   "openem": 154892800000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0                   0.997815        0.893316        0.908738",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0                   0.997815        0.893316        0.908738",
+   "reference": 0.997815,
+   "openem": 0.997815,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0                   0.997815        0.893316        0.908738",
+   "reference": 0.893316,
+   "openem": 0.893317,
+   "rel_diff": 6.45607801026746e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0                   0.997815        0.893316        0.908738",
+   "reference": 0.908738,
+   "openem": 0.908737,
+   "rel_diff": 6.45607801026746e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005969        0.796968        0.942955",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005969        0.796968        0.942955",
+   "reference": 0.005969,
+   "openem": 0.005969,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005969        0.796968        0.942955",
+   "reference": 0.796968,
+   "openem": 0.796973,
+   "rel_diff": 6.273777617210171e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005969        0.796968        0.942955",
+   "reference": 0.942955,
+   "openem": 0.942953,
+   "rel_diff": 2.1209919878960172e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.115153        0.865786        0.731800",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.115153        0.865786        0.731800",
+   "reference": 0.115153,
+   "openem": 0.115144,
+   "rel_diff": 7.815688692443098e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.115153        0.865786        0.731800",
+   "reference": 0.865786,
+   "openem": 0.86579,
+   "rel_diff": 4.620079326766661e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.115153        0.865786        0.731800",
+   "reference": 0.7318,
+   "openem": 0.731762,
+   "rel_diff": 5.1926755944223136e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0                   0.998085        0.899686        0.912016",
+   "reference": 159889300000000.0,
+   "openem": 159889300000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0                   0.998085        0.899686        0.912016",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0                   0.998085        0.899686        0.912016",
+   "reference": 0.998085,
+   "openem": 0.998085,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0                   0.998085        0.899686        0.912016",
+   "reference": 0.899686,
+   "openem": 0.899687,
+   "rel_diff": 6.254327212820092e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0                   0.998085        0.899686        0.912016",
+   "reference": 0.912016,
+   "openem": 0.912014,
+   "rel_diff": 1.2508654425640185e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005273        0.806838        0.945608",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005273        0.806838        0.945608",
+   "reference": 0.005273,
+   "openem": 0.005273,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005273        0.806838        0.945608",
+   "reference": 0.806838,
+   "openem": 0.806841,
+   "rel_diff": 3.718218527108595e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.005273        0.806838        0.945608",
+   "reference": 0.945608,
+   "openem": 0.945607,
+   "rel_diff": 1.0575206639841834e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.101361        0.866367        0.747208",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.101361        0.866367        0.747208",
+   "reference": 0.101361,
+   "openem": 0.101356,
+   "rel_diff": 4.932863724711674e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.101361        0.866367        0.747208",
+   "reference": 0.866367,
+   "openem": 0.866369,
+   "rel_diff": 2.308490512619351e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.101361        0.866367        0.747208",
+   "reference": 0.747208,
+   "openem": 0.747187,
+   "rel_diff": 2.8104624147409738e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0                   0.998313        0.905538        0.915136",
+   "reference": 164885900000000.0,
+   "openem": 164885900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0                   0.998313        0.905538        0.915136",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0                   0.998313        0.905538        0.915136",
+   "reference": 0.998313,
+   "openem": 0.998313,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0                   0.998313        0.905538        0.915136",
+   "reference": 0.905538,
+   "openem": 0.905538,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0                   0.998313        0.905538        0.915136",
+   "reference": 0.915136,
+   "openem": 0.915135,
+   "rel_diff": 6.064799961171534e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004678        0.816172        0.948079",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004678        0.816172        0.948079",
+   "reference": 0.004678,
+   "openem": 0.004678,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004678        0.816172        0.948079",
+   "reference": 0.816172,
+   "openem": 0.816174,
+   "rel_diff": 2.4504638727455596e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004678        0.816172        0.948079",
+   "reference": 0.948079,
+   "openem": 0.948078,
+   "rel_diff": 1.0547644236701327e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.089256        0.867765        0.761305",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.089256        0.867765        0.761305",
+   "reference": 0.089256,
+   "openem": 0.089253,
+   "rel_diff": 3.361118580266873e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.089256        0.867765        0.761305",
+   "reference": 0.867765,
+   "openem": 0.867767,
+   "rel_diff": 2.3047714530391164e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.089256        0.867765        0.761305",
+   "reference": 0.761305,
+   "openem": 0.761293,
+   "rel_diff": 1.576240797054006e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0                   0.998507        0.910919        0.918108",
+   "reference": 169882400000000.0,
+   "openem": 169882400000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0                   0.998507        0.910919        0.918108",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0                   0.998507        0.910919        0.918108",
+   "reference": 0.998507,
+   "openem": 0.998507,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0                   0.998507        0.910919        0.918108",
+   "reference": 0.910919,
+   "openem": 0.910919,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0                   0.998507        0.910919        0.918108",
+   "reference": 0.918108,
+   "openem": 0.918107,
+   "rel_diff": 5.88642496237842e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004166        0.824977        0.950384",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004166        0.824977        0.950384",
+   "reference": 0.004166,
+   "openem": 0.004166,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004166        0.824977        0.950384",
+   "reference": 0.824977,
+   "openem": 0.824978,
+   "rel_diff": 1.212155005568344e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.004166        0.824977        0.950384",
+   "reference": 0.950384,
+   "openem": 0.950384,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.078680        0.869800        0.774210",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.078680        0.869800        0.774210",
+   "reference": 0.07868,
+   "openem": 0.078679,
+   "rel_diff": 1.2709710218619726e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.078680        0.869800        0.774210",
+   "reference": 0.8698,
+   "openem": 0.869801,
+   "rel_diff": 1.1496895838454308e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.078680        0.869800        0.774210",
+   "reference": 0.77421,
+   "openem": 0.774204,
+   "rel_diff": 7.749835315935585e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0                   0.998672        0.915874        0.920938",
+   "reference": 174878900000000.0,
+   "openem": 174878900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0                   0.998672        0.915874        0.920938",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0                   0.998672        0.915874        0.920938",
+   "reference": 0.998672,
+   "openem": 0.998672,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0                   0.998672        0.915874        0.920938",
+   "reference": 0.915874,
+   "openem": 0.915874,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0                   0.998672        0.915874        0.920938",
+   "reference": 0.920938,
+   "openem": 0.920938,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.003724        0.833271        0.952538",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.003724        0.833271        0.952538",
+   "reference": 0.003724,
+   "openem": 0.003724,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.003724        0.833271        0.952538",
+   "reference": 0.833271,
+   "openem": 0.833272,
+   "rel_diff": 1.2000897667490597e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1                   0.003724        0.833271        0.952538",
+   "reference": 0.952538,
+   "openem": 0.952538,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.069466        0.872317        0.786041",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.069466        0.872317        0.786041",
+   "reference": 0.069466,
+   "openem": 0.069465,
+   "rel_diff": 1.4395531626997382e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.069466        0.872317        0.786041",
+   "reference": 0.872317,
+   "openem": 0.872318,
+   "rel_diff": 1.1463722477364945e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2                   0.069466        0.872317        0.786041",
+   "reference": 0.786041,
+   "openem": 0.786037,
+   "rel_diff": 5.088793078228745e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0            1.593498",
+   "reference": 124913500000000.0,
+   "openem": 124913500000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0            1.593498",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.249135e+14 0            1.593498",
+   "reference": 1.593498,
+   "openem": 1.593424,
+   "rel_diff": 5.924099476848341e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            2.035465",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            2.035465",
+   "reference": 2.035465,
+   "openem": 2.035649,
+   "rel_diff": 9.039703458421637e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.810987",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.810987",
+   "reference": 2.810987,
+   "openem": 2.801743,
+   "rel_diff": 0.0032885246356528183,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0            1.510797",
+   "reference": 129910100000000.0,
+   "openem": 129910100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0            1.510797",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.299101e+14 0            1.510797",
+   "reference": 1.510797,
+   "openem": 1.510753,
+   "rel_diff": 3.3869575960555013e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.906906",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.906906",
+   "reference": 1.906906,
+   "openem": 1.906999,
+   "rel_diff": 4.877010193482047e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.545901",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.545901",
+   "reference": 2.545901,
+   "openem": 2.541125,
+   "rel_diff": 0.0018759566848829208,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0            1.440345",
+   "reference": 134906600000000.0,
+   "openem": 134906600000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0            1.440345",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.349066e+14 0            1.440345",
+   "reference": 1.440345,
+   "openem": 1.440318,
+   "rel_diff": 2.0013846616843985e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.795352",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.795352",
+   "reference": 1.795352,
+   "openem": 1.795399,
+   "rel_diff": 2.6178710358697472e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.326277",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.326277",
+   "reference": 2.326277,
+   "openem": 2.323816,
+   "rel_diff": 0.0010579135674729486,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0            1.379789",
+   "reference": 139903100000000.0,
+   "openem": 139903100000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0            1.379789",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.399031e+14 0            1.379789",
+   "reference": 1.379789,
+   "openem": 1.379773,
+   "rel_diff": 1.1436487111447854e-17,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.698220",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.698220",
+   "reference": 1.69822,
+   "openem": 1.698245,
+   "rel_diff": 1.4721296416213291e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.142357",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            2.142357",
+   "reference": 2.142357,
+   "openem": 2.141088,
+   "rel_diff": 0.000592338251748045,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0            1.327309",
+   "reference": 144899700000000.0,
+   "openem": 144899700000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0            1.327309",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.448997e+14 0            1.327309",
+   "reference": 1.327309,
+   "openem": 1.327299,
+   "rel_diff": 6.901325537641218e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.613336",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.613336",
+   "reference": 1.613336,
+   "openem": 1.613349,
+   "rel_diff": 8.057837920816687e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.987093",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.987093",
+   "reference": 1.987093,
+   "openem": 1.986436,
+   "rel_diff": 0.00033063374487248844,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0            1.281481",
+   "reference": 149896200000000.0,
+   "openem": 149896200000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0            1.281481",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.498962e+14 0            1.281481",
+   "reference": 1.281481,
+   "openem": 1.281476,
+   "rel_diff": 3.3356415973405303e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.538868",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.538868",
+   "reference": 1.538868,
+   "openem": 1.538874,
+   "rel_diff": 3.89896989226661e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.855163",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.855163",
+   "reference": 1.855163,
+   "openem": 1.854821,
+   "rel_diff": 0.0001843503778373342,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0            1.241184",
+   "reference": 154892800000000.0,
+   "openem": 154892800000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0            1.241184",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.548928e+14 0            1.241184",
+   "reference": 1.241184,
+   "openem": 1.241181,
+   "rel_diff": 1.936823403008561e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.473274",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.473274",
+   "reference": 1.473274,
+   "openem": 1.473277,
+   "rel_diff": 2.036281099086283e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.742408",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.742408",
+   "reference": 1.742408,
+   "openem": 1.742229,
+   "rel_diff": 0.0001027313924178087,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0            1.205521",
+   "reference": 159889300000000.0,
+   "openem": 159889300000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0            1.205521",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.598893e+14 0            1.205521",
+   "reference": 1.205521,
+   "openem": 1.205519,
+   "rel_diff": 1.2508654425640185e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.415263",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.415263",
+   "reference": 1.415263,
+   "openem": 1.415264,
+   "rel_diff": 7.065824515583167e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.645509",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.645509",
+   "reference": 1.645509,
+   "openem": 1.645413,
+   "rel_diff": 5.83406107168639e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0            1.173773",
+   "reference": 164885900000000.0,
+   "openem": 164885900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0            1.173773",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.648859e+14 0            1.173773",
+   "reference": 1.173773,
+   "openem": 1.173772,
+   "rel_diff": 6.064799961171534e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.363749",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.363749",
+   "reference": 1.363749,
+   "openem": 1.36375,
+   "rel_diff": 7.332727649426201e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.561781",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.561781",
+   "reference": 1.561781,
+   "openem": 1.56173,
+   "rel_diff": 3.2655026537026155e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0            1.145356",
+   "reference": 169882400000000.0,
+   "openem": 169882400000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0            1.145356",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.698824e+14 0            1.145356",
+   "reference": 1.145356,
+   "openem": 1.145355,
+   "rel_diff": 5.886424963031945e-19,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.317821",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.317821",
+   "reference": 1.317821,
+   "openem": 1.317821,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.489044",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.489044",
+   "reference": 1.489044,
+   "openem": 1.489017,
+   "rel_diff": 1.8132439336916333e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0            1.119793",
+   "reference": 174878900000000.0,
+   "openem": 174878900000000.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0            1.119793",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1.748789e+14 0            1.119793",
+   "reference": 1.119793,
+   "openem": 1.119793,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "1            1.276713",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "1            1.276713",
+   "reference": 1.276713,
+   "openem": 1.276714,
+   "rel_diff": 7.832613907101544e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.425518",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "2            1.425518",
+   "reference": 1.425518,
+   "openem": 1.425503,
+   "rel_diff": 1.0522490771844528e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "first mode effective index at freq0: n_eff = 1.75, k_eff = 0.00e+00",
+   "reference": 1.75,
+   "openem": 1.75,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "first mode effective index at freq0: n_eff = 1.75, k_eff = 0.00e+00",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 12",
+   "reference": 12.0,
+   "openem": 12.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 14",
+   "reference": 14.0,
+   "openem": 14.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 16",
+   "reference": 16.0,
+   "openem": 16.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 22",
+   "reference": 22.0,
+   "openem": 22.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 24",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 26",
+   "reference": 26.0,
+   "openem": 26.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 28",
+   "reference": 28.0,
+   "openem": 28.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 26,
+   "label": "Solving for resolution = 30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 12",
+   "reference": 12.0,
+   "openem": 12.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 14",
+   "reference": 14.0,
+   "openem": 14.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 16",
+   "reference": 16.0,
+   "openem": 16.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 22",
+   "reference": 22.0,
+   "openem": 22.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 24",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 26",
+   "reference": 26.0,
+   "openem": 26.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 28",
+   "reference": 28.0,
+   "openem": 28.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "Solving with local subpixel for resolution = 30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.029861965887110955
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.042540335750212294
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.04286959968291716
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.05382579590565891
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05961313925430062
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.05478448275862069
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.035785886921034904
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.063696173134629
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.04290368410738781
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.06198994629532535
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.05339677504625958
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.042540335750212294
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.0855609462201928
+  },
+  {
+   "cell": 29,
+   "index": 0,
+   "pixel_diff": 0.08384465372907153
+  },
+  {
+   "cell": 30,
+   "index": 0,
+   "pixel_diff": 0.03109284332688588
+  },
+  {
+   "cell": 32,
+   "index": 0,
+   "pixel_diff": 0.09752433209223332
+  },
+  {
+   "cell": 33,
+   "index": 0,
+   "pixel_diff": 0.007289719626168224
+  },
+  {
+   "cell": 35,
+   "index": 0,
+   "pixel_diff": 0.09752433209223332
+  },
+  {
+   "cell": 35,
+   "index": 1,
+   "pixel_diff": 0.007289719626168224
+  },
+  {
+   "cell": 36,
+   "index": 0,
+   "pixel_diff": 0.07079589349528
+  }
+ ]
+}

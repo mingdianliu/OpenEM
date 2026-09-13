@@ -1,0 +1,40 @@
+{
+ "notebook": "RingResonator",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.06901496134150015
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.00043865043250112737
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.06901496134150015
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05068798882139461
+  }
+ ]
+}

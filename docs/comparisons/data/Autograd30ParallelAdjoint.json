@@ -1,0 +1,79 @@
+{
+ "notebook": "Autograd30ParallelAdjoint",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 11,
+  "openem": 11,
+  "mismatched": 2
+ },
+ "summary": {
+  "n_numbers_total": 6,
+  "n_numbers_compared": 6,
+  "max_rel_diff": 0.5342232320363534,
+  "n_over_5pct": 1,
+  "n_over_20pct": 1,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 1,
+  "n_figures_openem": 1,
+  "max_pixel_diff": 0.04032385960519177
+ },
+ "numbers": [
+  {
+   "cell": 7,
+   "label": "Targeting the mode that appeared as mode_index=2 in the initial solve.",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Using ModeSpec(num_modes=1, target_neff=1.8282) for the differentiable run.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Using ModeSpec(num_modes=1, target_neff=1.8282) for the differentiable run.",
+   "reference": 1.8282,
+   "openem": 1.8258,
+   "rel_diff": 0.0013127666557269215,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "parallel adjoint        3.8935e-01    3.5748e-01         35.21",
+   "reference": 0.38935,
+   "openem": 0.38929,
+   "rel_diff": 0.00015410299216630022,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "parallel adjoint        3.8935e-01    3.5748e-01         35.21",
+   "reference": 0.35748,
+   "openem": 0.35802,
+   "rel_diff": 0.001510574018126846,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "parallel adjoint        3.8935e-01    3.5748e-01         35.21",
+   "reference": 35.21,
+   "openem": 16.4,
+   "rel_diff": 0.5342232320363534,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.04032385960519177
+  }
+ ]
+}

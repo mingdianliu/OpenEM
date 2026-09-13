@@ -1,0 +1,60 @@
+{
+ "notebook": "EulerWaveguideBend",
+ "category": "Example Library",
+ "verdict": "close",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 19,
+  "openem": 19,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.05940422322775264
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.024581448653924927
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.04278455745588169
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.03695324283559578
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04888436632747456
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.04342421630449576
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.05940422322775264
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.04237187789084181
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "notebook": "DielectricMetasurfaceAbsorber",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 2
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.006840967335320094
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.0051881161670548365
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.0027563898127477334
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.006840967335320094
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.002880630008289583
+  }
+ ]
+}

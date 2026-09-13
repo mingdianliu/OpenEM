@@ -1,0 +1,94 @@
+{
+ "notebook": "MaxwellStressTensor",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 15,
+  "openem": 15,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 6,
+  "n_numbers_compared": 5,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.04937914196023718
+ },
+ "numbers": [
+  {
+   "cell": 6,
+   "label": "0",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "40",
+   "reference": 40.0,
+   "openem": 40.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "50",
+   "reference": 50.0,
+   "openem": 50.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.04423076923076923
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.04937914196023718
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.04650024159857008
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04041314238113546
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "notebook": "Autograd12LightExtractor",
+ "category": "Inverse Design",
+ "verdict": "trajectory divergence",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 30,
+  "openem": 30,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 6,
+  "n_numbers_compared": 5,
+  "max_rel_diff": 0.9426517497467859,
+  "n_over_5pct": 2,
+  "n_over_20pct": 2,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 11,
+  "n_figures_openem": 11,
+  "max_pixel_diff": 0.5301015697137581
+ },
+ "numbers": [
+  {
+   "cell": 15,
+   "label": "Found 100 iterations previously completed out of 100 total.",
+   "reference": 100.0,
+   "openem": 100.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "Found 100 iterations previously completed out of 100 total.",
+   "reference": 100.0,
+   "openem": 100.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 22,
+   "label": "Text(0.5, 0, 'iteration')",
+   "reference": 0.5,
+   "openem": 0.5,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 22,
+   "label": "Text(0.5, 0, 'iteration')",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 28,
+   "label": "0.9658721904728587",
+   "reference": 0.9658721904728587,
+   "openem": 0.05693678504389959,
+   "rel_diff": 0.9410514293655922,
+   "near_zero": false
+  },
+  {
+   "cell": 28,
+   "label": "0.8196551325491168",
+   "reference": 0.8196551325491168,
+   "openem": 0.047005787662758036,
+   "rel_diff": 0.9426517497467859,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.06409826563316891
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.048648166960737135
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.02950585546986575
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.5301015697137581
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.4599093427348275
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.1621602860018743
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.1101108824874257
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.3897302526965151
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.13380300248596702
+  },
+  {
+   "cell": 26,
+   "index": 0,
+   "pixel_diff": 0.1964547971590225
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.04652272610019089
+  }
+ ]
+}

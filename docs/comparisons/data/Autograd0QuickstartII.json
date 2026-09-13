@@ -1,0 +1,143 @@
+{
+ "notebook": "Autograd0QuickstartII",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 6,
+  "openem": 6,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 14,
+  "n_numbers_compared": 14,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 1,
+  "n_figures_openem": 1,
+  "max_pixel_diff": 0.03523825650630847
+ },
+ "numbers": [
+  {
+   "cell": 3,
+   "label": "step = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "step = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "step = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.03523825650630847
+  }
+ ]
+}

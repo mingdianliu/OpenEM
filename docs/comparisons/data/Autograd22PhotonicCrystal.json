@@ -1,0 +1,314 @@
+{
+ "notebook": "Autograd22PhotonicCrystal",
+ "category": "Inverse Design",
+ "verdict": "trajectory divergence",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 27,
+  "openem": 27,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 31,
+  "n_numbers_compared": 31,
+  "max_rel_diff": 0.681182572160098,
+  "n_over_5pct": 9,
+  "n_over_20pct": 5,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 8,
+  "n_figures_openem": 8,
+  "max_pixel_diff": 0.12379450236216968
+ },
+ "numbers": [
+  {
+   "cell": 17,
+   "label": "0.9999248769975477",
+   "reference": 0.9999248769975477,
+   "openem": 1.0020389929094053,
+   "rel_diff": 0.0021142747425242844,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 5.0388e-01",
+   "reference": 0.50388,
+   "openem": 0.50031,
+   "rel_diff": 0.007085020242914904,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 4.5922e+00",
+   "reference": 4.5922,
+   "openem": 4.766,
+   "rel_diff": 0.037846783676669125,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 7.1618e-01",
+   "reference": 0.71618,
+   "openem": 0.71747,
+   "rel_diff": 0.0018012231561898033,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 2.2663e+00",
+   "reference": 2.2663,
+   "openem": 2.3975,
+   "rel_diff": 0.057891717777875724,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 8.0503e-01",
+   "reference": 0.80503,
+   "openem": 0.7977,
+   "rel_diff": 0.00910525073599749,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.6398e+00",
+   "reference": 1.6398,
+   "openem": 1.8311,
+   "rel_diff": 0.11666056836199538,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 8.3990e-01",
+   "reference": 0.8399,
+   "openem": 0.84398,
+   "rel_diff": 0.004857721157280596,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.7218e+00",
+   "reference": 1.7218,
+   "openem": 1.8468,
+   "rel_diff": 0.07259844348937158,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 8.6579e-01",
+   "reference": 0.86579,
+   "openem": 0.89088,
+   "rel_diff": 0.028979313690386883,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.9119e+00",
+   "reference": 1.9119,
+   "openem": 1.4731,
+   "rel_diff": 0.2295099116062555,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 9.0569e-01",
+   "reference": 0.90569,
+   "openem": 0.92014,
+   "rel_diff": 0.015954686482129606,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.5462e+00",
+   "reference": 1.5462,
+   "openem": 0.68693,
+   "rel_diff": 0.5557301772086405,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 9.3005e-01",
+   "reference": 0.93005,
+   "openem": 0.91656,
+   "rel_diff": 0.014504596527068439,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 8.6348e-01",
+   "reference": 0.86348,
+   "openem": 1.394,
+   "rel_diff": 0.614397554083476,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 8",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 9.3529e-01",
+   "reference": 0.93529,
+   "openem": 0.92282,
+   "rel_diff": 0.013332763100214888,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 9.1394e-01",
+   "reference": 0.91394,
+   "openem": 1.5365,
+   "rel_diff": 0.681182572160098,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 9",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 9.3672e-01",
+   "reference": 0.93672,
+   "openem": 0.93914,
+   "rel_diff": 0.0025834827910154344,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.3241e+00",
+   "reference": 1.3241,
+   "openem": 1.1713,
+   "rel_diff": 0.11539913903783705,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "step = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "J = 9.4567e-01",
+   "reference": 0.94567,
+   "openem": 0.9568,
+   "rel_diff": 0.011769433311831794,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "grad_norm = 1.3289e+00",
+   "reference": 1.3289,
+   "openem": 0.67052,
+   "rel_diff": 0.4954323124388592,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.12379450236216968
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04060393075621502
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.05169346978557505
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.05169346978557505
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.035983735057809135
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.05903699310549337
+  },
+  {
+   "cell": 25,
+   "index": 0,
+   "pixel_diff": 0.04501887283613172
+  },
+  {
+   "cell": 26,
+   "index": 0,
+   "pixel_diff": 0.0894775400038558
+  }
+ ]
+}

@@ -1,0 +1,1286 @@
+{
+ "notebook": "PhotonicSpinSelector",
+ "category": "Example Library",
+ "verdict": "trajectory divergence",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 2
+ },
+ "summary": {
+  "n_numbers_total": 155,
+  "n_numbers_compared": 54,
+  "max_rel_diff": 12.64516129032258,
+  "n_over_5pct": 5,
+  "n_over_20pct": 4,
+  "n_near_zero_over_5pct": 4,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.3484297961177986
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "The total numbre of pixels is 435.",
+   "reference": 435.0,
+   "openem": 435.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Starting DBS. Parameters: 435, Initial objective: 0.3477",
+   "reference": 435.0,
+   "openem": 435.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Starting DBS. Parameters: 435, Initial objective: 0.3477",
+   "reference": 0.3477,
+   "openem": 0.35,
+   "rel_diff": 0.0005287356321839008,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 319: 1->0 | Highest objective value: 0.4293",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 319: 1->0 | Highest objective value: 0.4293",
+   "reference": 319.0,
+   "openem": 319.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 319: 1->0 | Highest objective value: 0.4293",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 319: 1->0 | Highest objective value: 0.4293",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 319: 1->0 | Highest objective value: 0.4293",
+   "reference": 0.4293,
+   "openem": 0.4308,
+   "rel_diff": 0.00047021943573667755,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 373: 0->1 | Highest objective value: 0.4333",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 373: 0->1 | Highest objective value: 0.4333",
+   "reference": 373.0,
+   "openem": 373.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 373: 0->1 | Highest objective value: 0.4333",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 373: 0->1 | Highest objective value: 0.4333",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 373: 0->1 | Highest objective value: 0.4333",
+   "reference": 0.4333,
+   "openem": 0.4353,
+   "rel_diff": 0.0005361930294906171,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 189: 0->1 | Highest objective value: 0.4983",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 189: 0->1 | Highest objective value: 0.4983",
+   "reference": 189.0,
+   "openem": 189.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 189: 0->1 | Highest objective value: 0.4983",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 189: 0->1 | Highest objective value: 0.4983",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 189: 0->1 | Highest objective value: 0.4983",
+   "reference": 0.4983,
+   "openem": 0.5003,
+   "rel_diff": 0.0010582010582010296,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 212: 1->0 | Highest objective value: 0.5031",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 212: 1->0 | Highest objective value: 0.5031",
+   "reference": 212.0,
+   "openem": 212.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 212: 1->0 | Highest objective value: 0.5031",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 212: 1->0 | Highest objective value: 0.5031",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 212: 1->0 | Highest objective value: 0.5031",
+   "reference": 0.5031,
+   "openem": 0.5048,
+   "rel_diff": 0.0008018867924528465,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 232: 1->0 | Highest objective value: 0.5213",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 232: 1->0 | Highest objective value: 0.5213",
+   "reference": 232.0,
+   "openem": 232.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 232: 1->0 | Highest objective value: 0.5213",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 232: 1->0 | Highest objective value: 0.5213",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 232: 1->0 | Highest objective value: 0.5213",
+   "reference": 0.5213,
+   "openem": 0.5223,
+   "rel_diff": 0.0004310344827586211,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 185: 0->1 | Highest objective value: 0.6802",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 185: 0->1 | Highest objective value: 0.6802",
+   "reference": 185.0,
+   "openem": 185.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 185: 0->1 | Highest objective value: 0.6802",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 185: 0->1 | Highest objective value: 0.6802",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 185: 0->1 | Highest objective value: 0.6802",
+   "reference": 0.6802,
+   "openem": 0.6811,
+   "rel_diff": 0.0004864864864864929,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 75: 0->1 | Highest objective value: 0.6975",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 75: 0->1 | Highest objective value: 0.6975",
+   "reference": 75.0,
+   "openem": 75.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 75: 0->1 | Highest objective value: 0.6975",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 75: 0->1 | Highest objective value: 0.6975",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 75: 0->1 | Highest objective value: 0.6975",
+   "reference": 0.6975,
+   "openem": 0.698,
+   "rel_diff": 0.0006666666666665932,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 114: 1->0 | Highest objective value: 0.7368",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 114: 1->0 | Highest objective value: 0.7368",
+   "reference": 114.0,
+   "openem": 114.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 114: 1->0 | Highest objective value: 0.7368",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 114: 1->0 | Highest objective value: 0.7368",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 114: 1->0 | Highest objective value: 0.7368",
+   "reference": 0.7368,
+   "openem": 0.7372,
+   "rel_diff": 0.00035087719298241746,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 36: 0->1 | Highest objective value: 0.8089",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 36: 0->1 | Highest objective value: 0.8089",
+   "reference": 36.0,
+   "openem": 36.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 36: 0->1 | Highest objective value: 0.8089",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 36: 0->1 | Highest objective value: 0.8089",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 36: 0->1 | Highest objective value: 0.8089",
+   "reference": 0.8089,
+   "openem": 0.8104,
+   "rel_diff": 0.001854370132278473,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 276: 1->0 | Highest objective value: 0.8198",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 276: 1->0 | Highest objective value: 0.8198",
+   "reference": 276.0,
+   "openem": 276.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 276: 1->0 | Highest objective value: 0.8198",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 276: 1->0 | Highest objective value: 0.8198",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 276: 1->0 | Highest objective value: 0.8198",
+   "reference": 0.8198,
+   "openem": 0.8213,
+   "rel_diff": 0.0005434782608695857,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 9: 1->0 | Highest objective value: 0.8335",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 9: 1->0 | Highest objective value: 0.8335",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 9: 1->0 | Highest objective value: 0.8335",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 9: 1->0 | Highest objective value: 0.8335",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 9: 1->0 | Highest objective value: 0.8335",
+   "reference": 0.8335,
+   "openem": 0.8347,
+   "rel_diff": 0.001439712057588457,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 242: 0->1 | Highest objective value: 0.8394",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 242: 0->1 | Highest objective value: 0.8394",
+   "reference": 242.0,
+   "openem": 242.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 242: 0->1 | Highest objective value: 0.8394",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 242: 0->1 | Highest objective value: 0.8394",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 242: 0->1 | Highest objective value: 0.8394",
+   "reference": 0.8394,
+   "openem": 0.8407,
+   "rel_diff": 0.0005371900826446148,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 287: 1->0 | Highest objective value: 0.8430",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 287: 1->0 | Highest objective value: 0.8430",
+   "reference": 287.0,
+   "openem": 287.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 287: 1->0 | Highest objective value: 0.8430",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 287: 1->0 | Highest objective value: 0.8430",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 287: 1->0 | Highest objective value: 0.8430",
+   "reference": 0.843,
+   "openem": 0.8438,
+   "rel_diff": 0.0002787456445993111,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 275: 0->1 | Highest objective value: 0.8520",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 275: 0->1 | Highest objective value: 0.8520",
+   "reference": 275.0,
+   "openem": 275.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 275: 0->1 | Highest objective value: 0.8520",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 275: 0->1 | Highest objective value: 0.8520",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 275: 0->1 | Highest objective value: 0.8520",
+   "reference": 0.852,
+   "openem": 0.8526,
+   "rel_diff": 0.00021818181818183453,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 155: 1->0 | Highest objective value: 0.8946",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 155: 1->0 | Highest objective value: 0.8946",
+   "reference": 155.0,
+   "openem": 155.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 155: 1->0 | Highest objective value: 0.8946",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 155: 1->0 | Highest objective value: 0.8946",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 155: 1->0 | Highest objective value: 0.8946",
+   "reference": 0.8946,
+   "openem": 0.8949,
+   "rel_diff": 0.0001935483870968245,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 171: 1->0 | Highest objective value: 0.8975",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 171: 1->0 | Highest objective value: 0.8975",
+   "reference": 171.0,
+   "openem": 171.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 171: 1->0 | Highest objective value: 0.8975",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 171: 1->0 | Highest objective value: 0.8975",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 171: 1->0 | Highest objective value: 0.8975",
+   "reference": 0.8975,
+   "openem": 0.8979,
+   "rel_diff": 0.00023391812865500994,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 234: 1->0 | Highest objective value: 0.9143",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 234: 1->0 | Highest objective value: 0.9143",
+   "reference": 234.0,
+   "openem": 234.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 234: 1->0 | Highest objective value: 0.9143",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 234: 1->0 | Highest objective value: 0.9143",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 234: 1->0 | Highest objective value: 0.9143",
+   "reference": 0.9143,
+   "openem": 0.9146,
+   "rel_diff": 0.00012820512820511408,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 48: 1->0 | Highest objective value: 0.9218",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 48: 1->0 | Highest objective value: 0.9218",
+   "reference": 48.0,
+   "openem": 48.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 48: 1->0 | Highest objective value: 0.9218",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 48: 1->0 | Highest objective value: 0.9218",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 48: 1->0 | Highest objective value: 0.9218",
+   "reference": 0.9218,
+   "openem": 0.9219,
+   "rel_diff": 0.00010848340203959646,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 41: 0->1 | Highest objective value: 0.9434",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 41: 0->1 | Highest objective value: 0.9434",
+   "reference": 41.0,
+   "openem": 41.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 41: 0->1 | Highest objective value: 0.9434",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 41: 0->1 | Highest objective value: 0.9434",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 41: 0->1 | Highest objective value: 0.9434",
+   "reference": 0.9434,
+   "openem": 0.9438,
+   "rel_diff": 0.0004239983040067373,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 175: 0->1 | Highest objective value: 0.9505",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 175: 0->1 | Highest objective value: 0.9505",
+   "reference": 175.0,
+   "openem": 175.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 175: 0->1 | Highest objective value: 0.9505",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 175: 0->1 | Highest objective value: 0.9505",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 175: 0->1 | Highest objective value: 0.9505",
+   "reference": 0.9505,
+   "openem": 0.951,
+   "rel_diff": 0.00028571428571425424,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 400: 0->1 | Highest objective value: 0.9567",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 400: 0->1 | Highest objective value: 0.9567",
+   "reference": 400.0,
+   "openem": 400.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 400: 0->1 | Highest objective value: 0.9567",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 400: 0->1 | Highest objective value: 0.9567",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 400: 0->1 | Highest objective value: 0.9567",
+   "reference": 0.9567,
+   "openem": 0.9573,
+   "rel_diff": 0.00015000000000001124,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 363: 1->0 | Highest objective value: 0.9583",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 363: 1->0 | Highest objective value: 0.9583",
+   "reference": 363.0,
+   "openem": 363.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 363: 1->0 | Highest objective value: 0.9583",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 363: 1->0 | Highest objective value: 0.9583",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 363: 1->0 | Highest objective value: 0.9583",
+   "reference": 0.9583,
+   "openem": 0.959,
+   "rel_diff": 0.00019283746556471705,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 95: 0->1 | Highest objective value: 0.9671",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 95: 0->1 | Highest objective value: 0.9671",
+   "reference": 95.0,
+   "openem": 95.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 95: 0->1 | Highest objective value: 0.9671",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 95: 0->1 | Highest objective value: 0.9671",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 95: 0->1 | Highest objective value: 0.9671",
+   "reference": 0.9671,
+   "openem": 0.9675,
+   "rel_diff": 0.000413607693103161,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 390: 1->0 | Highest objective value: 0.9692",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 390: 1->0 | Highest objective value: 0.9692",
+   "reference": 390.0,
+   "openem": 390.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 390: 1->0 | Highest objective value: 0.9692",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 390: 1->0 | Highest objective value: 0.9692",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 390: 1->0 | Highest objective value: 0.9692",
+   "reference": 0.9692,
+   "openem": 0.9694,
+   "rel_diff": 5.12820512820741e-05,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 415: 1->0 | Highest objective value: 0.9720",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 415: 1->0 | Highest objective value: 0.9720",
+   "reference": 415.0,
+   "openem": 252.0,
+   "rel_diff": 0.3927710843373494,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 415: 1->0 | Highest objective value: 0.9720",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 415: 1->0 | Highest objective value: 0.9720",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 415: 1->0 | Highest objective value: 0.9720",
+   "reference": 0.972,
+   "openem": 0.9694,
+   "rel_diff": 0.00062650602409637,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 388: 1->0 | Highest objective value: 0.9731",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 388: 1->0 | Highest objective value: 0.9731",
+   "reference": 388.0,
+   "openem": 415.0,
+   "rel_diff": 0.06958762886597938,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 388: 1->0 | Highest objective value: 0.9731",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 388: 1->0 | Highest objective value: 0.9731",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 388: 1->0 | Highest objective value: 0.9731",
+   "reference": 0.9731,
+   "openem": 0.9721,
+   "rel_diff": 0.0002577319587628868,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 107: 0->1 | Highest objective value: 0.9819",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 107: 0->1 | Highest objective value: 0.9819",
+   "reference": 107.0,
+   "openem": 388.0,
+   "rel_diff": 2.6261682242990654,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 107: 0->1 | Highest objective value: 0.9819",
+   "reference": 0.0,
+   "openem": 1.0,
+   "rel_diff": 0.9345794392523364,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 107: 0->1 | Highest objective value: 0.9819",
+   "reference": 1.0,
+   "openem": 0.0,
+   "rel_diff": 0.9345794392523364,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 107: 0->1 | Highest objective value: 0.9819",
+   "reference": 0.9819,
+   "openem": 0.9734,
+   "rel_diff": 0.007943925233644815,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 102: 1->0 | Highest objective value: 0.9842",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 102: 1->0 | Highest objective value: 0.9842",
+   "reference": 102.0,
+   "openem": 107.0,
+   "rel_diff": 0.049019607843137254,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 102: 1->0 | Highest objective value: 0.9842",
+   "reference": 1.0,
+   "openem": 0.0,
+   "rel_diff": 0.9803921568627451,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 102: 1->0 | Highest objective value: 0.9842",
+   "reference": 0.0,
+   "openem": 1.0,
+   "rel_diff": 0.9803921568627451,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 102: 1->0 | Highest objective value: 0.9842",
+   "reference": 0.9842,
+   "openem": 0.9801,
+   "rel_diff": 0.004019607843137247,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 423: 1->0 | Highest objective value: 0.9868",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 423: 1->0 | Highest objective value: 0.9868",
+   "reference": 423.0,
+   "openem": 326.0,
+   "rel_diff": 0.2293144208037825,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 423: 1->0 | Highest objective value: 0.9868",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 423: 1->0 | Highest objective value: 0.9868",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 423: 1->0 | Highest objective value: 0.9868",
+   "reference": 0.9868,
+   "openem": 0.9833,
+   "rel_diff": 0.0008274231678487135,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 31: 1->0 | Highest objective value: 0.9961",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 31: 1->0 | Highest objective value: 0.9961",
+   "reference": 31.0,
+   "openem": 423.0,
+   "rel_diff": 12.64516129032258,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 31: 1->0 | Highest objective value: 0.9961",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 31: 1->0 | Highest objective value: 0.9961",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "[Pass 1] Improved! Idx 31: 1->0 | Highest objective value: 0.9961",
+   "reference": 0.9961,
+   "openem": 0.9868,
+   "rel_diff": 0.009336412006826599,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Termination condition reached (objective=0.9961 ≥ 0.99). Stopping optimization.",
+   "reference": 0.9961,
+   "openem": 0.9903,
+   "rel_diff": 0.005822708563397277,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Termination condition reached (objective=0.9961 ≥ 0.99). Stopping optimization.",
+   "reference": 0.99,
+   "openem": 0.99,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.06233356211393274
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.2404572880279454
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.3484297961177986
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.06265481105112734
+  }
+ ]
+}

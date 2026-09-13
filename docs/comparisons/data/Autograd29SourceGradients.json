@@ -1,0 +1,784 @@
+{
+ "notebook": "Autograd29SourceGradients",
+ "category": "Inverse Design",
+ "verdict": "trajectory divergence",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 91,
+  "n_numbers_compared": 91,
+  "max_rel_diff": 0.5367647058823528,
+  "n_over_5pct": 39,
+  "n_over_20pct": 10,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.0854129840912743
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "Independent cylinders per lens: 69",
+   "reference": 69.0,
+   "openem": 69.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "Physical cylinders per lens: 241",
+   "reference": 241.0,
+   "openem": 241.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "focal_length = 6.00 um",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "bridge_distance = 2.89 um",
+   "reference": 2.89,
+   "openem": 2.89,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "focal_distance = 5.79 um",
+   "reference": 5.79,
+   "openem": 5.79,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "baseline focused power = 0.0413",
+   "reference": 0.0413,
+   "openem": 0.0396,
+   "rel_diff": 0.04116222760290557,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "initial normalized objective = 0.637",
+   "reference": 0.637,
+   "openem": 0.601,
+   "rel_diff": 0.05651491365777085,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "initial focused power = 0.0263",
+   "reference": 0.0263,
+   "openem": 0.0238,
+   "rel_diff": 0.09505703422053227,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "initial gradient norm = 0.331",
+   "reference": 0.331,
+   "openem": 0.364,
+   "rel_diff": 0.09969788519637454,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 0.637",
+   "reference": 0.637,
+   "openem": 0.601,
+   "rel_diff": 0.05651491365777085,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.0263",
+   "reference": 0.0263,
+   "openem": 0.0238,
+   "rel_diff": 0.09505703422053227,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.331",
+   "reference": 0.331,
+   "openem": 0.364,
+   "rel_diff": 0.09969788519637454,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 1.493",
+   "reference": 1.493,
+   "openem": 1.456,
+   "rel_diff": 0.024782317481580805,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.0616",
+   "reference": 0.0616,
+   "openem": 0.0576,
+   "rel_diff": 0.06493506493506498,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.418",
+   "reference": 0.418,
+   "openem": 0.47,
+   "rel_diff": 0.12440191387559807,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 2.240",
+   "reference": 2.24,
+   "openem": 2.232,
+   "rel_diff": 0.0035714285714285744,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.0924",
+   "reference": 0.0924,
+   "openem": 0.0884,
+   "rel_diff": 0.04329004329004318,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.643",
+   "reference": 0.643,
+   "openem": 0.655,
+   "rel_diff": 0.018662519440124432,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 2.765",
+   "reference": 2.765,
+   "openem": 2.687,
+   "rel_diff": 0.02820976491862578,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1141",
+   "reference": 0.1141,
+   "openem": 0.1064,
+   "rel_diff": 0.0674846625766871,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.997",
+   "reference": 0.997,
+   "openem": 0.676,
+   "rel_diff": 0.3219658976930792,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 3.245",
+   "reference": 3.245,
+   "openem": 3.086,
+   "rel_diff": 0.04899845916795077,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1339",
+   "reference": 0.1339,
+   "openem": 0.1222,
+   "rel_diff": 0.08737864077669895,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.544",
+   "reference": 0.544,
+   "openem": 0.836,
+   "rel_diff": 0.5367647058823528,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 3.563",
+   "reference": 3.563,
+   "openem": 3.392,
+   "rel_diff": 0.04799326410328382,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1470",
+   "reference": 0.147,
+   "openem": 0.1343,
+   "rel_diff": 0.08639455782312919,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.571",
+   "reference": 0.571,
+   "openem": 0.584,
+   "rel_diff": 0.02276707530647988,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 3.919",
+   "reference": 3.919,
+   "openem": 3.681,
+   "rel_diff": 0.060729778004593005,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1617",
+   "reference": 0.1617,
+   "openem": 0.1457,
+   "rel_diff": 0.09894867037724189,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.741",
+   "reference": 0.741,
+   "openem": 0.724,
+   "rel_diff": 0.022941970310391385,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 8",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 4.090",
+   "reference": 4.09,
+   "openem": 3.948,
+   "rel_diff": 0.03471882640586795,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1688",
+   "reference": 0.1688,
+   "openem": 0.1563,
+   "rel_diff": 0.07405213270142186,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 1.379",
+   "reference": 1.379,
+   "openem": 0.705,
+   "rel_diff": 0.48875997099347357,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 9",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 4.407",
+   "reference": 4.407,
+   "openem": 4.175,
+   "rel_diff": 0.05264352167007039,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1819",
+   "reference": 0.1819,
+   "openem": 0.1653,
+   "rel_diff": 0.09125893347993405,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 1.093",
+   "reference": 1.093,
+   "openem": 0.641,
+   "rel_diff": 0.4135407136322049,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 4.696",
+   "reference": 4.696,
+   "openem": 4.439,
+   "rel_diff": 0.05472742759795564,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.1938",
+   "reference": 0.1938,
+   "openem": 0.1757,
+   "rel_diff": 0.09339525283797732,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.867",
+   "reference": 0.867,
+   "openem": 0.617,
+   "rel_diff": 0.28835063437139563,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 11",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 4.907",
+   "reference": 4.907,
+   "openem": 4.729,
+   "rel_diff": 0.0362747095985327,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2025",
+   "reference": 0.2025,
+   "openem": 0.1872,
+   "rel_diff": 0.07555555555555558,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.709",
+   "reference": 0.709,
+   "openem": 0.524,
+   "rel_diff": 0.2609308885754583,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 12",
+   "reference": 12.0,
+   "openem": 12.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.172",
+   "reference": 5.172,
+   "openem": 4.91,
+   "rel_diff": 0.05065738592420719,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2134",
+   "reference": 0.2134,
+   "openem": 0.1944,
+   "rel_diff": 0.08903467666354271,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.708",
+   "reference": 0.708,
+   "openem": 0.447,
+   "rel_diff": 0.36864406779661013,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 13",
+   "reference": 13.0,
+   "openem": 13.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.301",
+   "reference": 5.301,
+   "openem": 5.063,
+   "rel_diff": 0.04489718920958318,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2188",
+   "reference": 0.2188,
+   "openem": 0.2004,
+   "rel_diff": 0.08409506398537477,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.505",
+   "reference": 0.505,
+   "openem": 0.449,
+   "rel_diff": 0.11089108910891088,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 14",
+   "reference": 14.0,
+   "openem": 14.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.404",
+   "reference": 5.404,
+   "openem": 5.208,
+   "rel_diff": 0.03626943005181342,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2230",
+   "reference": 0.223,
+   "openem": 0.2062,
+   "rel_diff": 0.0753363228699552,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.611",
+   "reference": 0.611,
+   "openem": 0.458,
+   "rel_diff": 0.2504091653027823,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 15",
+   "reference": 15.0,
+   "openem": 15.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.522",
+   "reference": 5.522,
+   "openem": 5.335,
+   "rel_diff": 0.03386454183266937,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2279",
+   "reference": 0.2279,
+   "openem": 0.2112,
+   "rel_diff": 0.07327775340061428,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.483",
+   "reference": 0.483,
+   "openem": 0.501,
+   "rel_diff": 0.03726708074534165,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 16",
+   "reference": 16.0,
+   "openem": 16.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.620",
+   "reference": 5.62,
+   "openem": 5.479,
+   "rel_diff": 0.025088967971530252,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2319",
+   "reference": 0.2319,
+   "openem": 0.2169,
+   "rel_diff": 0.06468305304010344,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.506",
+   "reference": 0.506,
+   "openem": 0.543,
+   "rel_diff": 0.07312252964426884,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 17",
+   "reference": 17.0,
+   "openem": 17.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.653",
+   "reference": 5.653,
+   "openem": 5.623,
+   "rel_diff": 0.005306916681407989,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2333",
+   "reference": 0.2333,
+   "openem": 0.2226,
+   "rel_diff": 0.04586369481354485,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.638",
+   "reference": 0.638,
+   "openem": 0.569,
+   "rel_diff": 0.10815047021943583,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.705",
+   "reference": 5.705,
+   "openem": 5.73,
+   "rel_diff": 0.004382120946538187,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2354",
+   "reference": 0.2354,
+   "openem": 0.2268,
+   "rel_diff": 0.03653355989804587,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.577",
+   "reference": 0.577,
+   "openem": 0.424,
+   "rel_diff": 0.2651646447140381,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 19",
+   "reference": 19.0,
+   "openem": 19.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.702",
+   "reference": 5.702,
+   "openem": 5.741,
+   "rel_diff": 0.0068397053665380046,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2353",
+   "reference": 0.2353,
+   "openem": 0.2273,
+   "rel_diff": 0.0339991500212495,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.630",
+   "reference": 0.63,
+   "openem": 0.473,
+   "rel_diff": 0.24920634920634924,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "step = 20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "normalized objective = 5.757",
+   "reference": 5.757,
+   "openem": 5.749,
+   "rel_diff": 0.0013896126454750752,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "focused power = 0.2376",
+   "reference": 0.2376,
+   "openem": 0.2276,
+   "rel_diff": 0.042087542087542125,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "gradient norm = 0.521",
+   "reference": 0.521,
+   "openem": 0.482,
+   "rel_diff": 0.07485604606525918,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "final focused power = 0.2392",
+   "reference": 0.2392,
+   "openem": 0.2289,
+   "rel_diff": 0.043060200668896334,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "final normalized objective = 5.796",
+   "reference": 5.796,
+   "openem": 5.782,
+   "rel_diff": 0.002415458937198108,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.04012806256053377
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.030904702306454496
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.05270435084569192
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.03429189832216706
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.0854129840912743
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.05522317033147358
+  }
+ ]
+}

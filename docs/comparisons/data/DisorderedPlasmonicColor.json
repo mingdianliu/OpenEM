@@ -1,0 +1,54 @@
+{
+ "notebook": "DisorderedPlasmonicColor",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 15,
+  "openem": 15,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 1,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.10282465150403522
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "The smallest particle diameter is 5.00 nm.",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.10282465150403522
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.0836450569540149
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.05877722625574159
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.050152235423695554
+  }
+ ]
+}

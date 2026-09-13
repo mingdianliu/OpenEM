@@ -1,0 +1,70 @@
+{
+ "notebook": "OpticalLuneburgLens",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 24,
+  "openem": 24,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 9,
+  "n_figures_openem": 9,
+  "max_pixel_diff": 0.05691870207688011
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.05691870207688011
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.052173052173052174
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.04996722575669944
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.030780389822943014
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.0403074448118688
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.04275329807244701
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.049820705610179296
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.029411545900907603
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.047553499132446504
+  }
+ ]
+}

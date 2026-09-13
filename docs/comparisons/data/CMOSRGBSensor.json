@@ -1,0 +1,64 @@
+{
+ "notebook": "CMOSRGBSensor",
+ "category": "Example Library",
+ "verdict": "close",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 28,
+  "openem": 28,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 1,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.13554072224356511
+ },
+ "numbers": [
+  {
+   "cell": 2,
+   "label": "The height of the lens is 0.339 microns.",
+   "reference": 0.339,
+   "openem": 0.339,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0838655462184874
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.04922369809992963
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.071243834718953
+  },
+  {
+   "cell": 25,
+   "index": 0,
+   "pixel_diff": 0.13554072224356511
+  },
+  {
+   "cell": 26,
+   "index": 0,
+   "pixel_diff": 0.037836927853949605
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.09765778554269491
+  }
+ ]
+}

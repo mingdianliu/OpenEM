@@ -1,0 +1,105 @@
+{
+ "notebook": "SWGWaveguideCrossing",
+ "category": "Example Library",
+ "verdict": "close",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 21,
+  "openem": 21,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 8,
+  "n_numbers_compared": 8,
+  "max_rel_diff": 0.06813322368421053,
+  "n_over_5pct": 2,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.09346728644974259
+ },
+ "numbers": [
+  {
+   "cell": 1,
+   "label": "Effective index in regions B: 3.018, C: 3.131, D: 2.567.",
+   "reference": 3.018,
+   "openem": 3.018,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 1,
+   "label": "Effective index in regions B: 3.018, C: 3.131, D: 2.567.",
+   "reference": 3.131,
+   "openem": 3.131,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) for through mode, TE0: -0.269, TE1: -0.343, TE2: -0.436",
+   "reference": -0.269,
+   "openem": -0.265,
+   "rel_diff": 0.014869888475836443,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) for through mode, TE0: -0.269, TE1: -0.343, TE2: -0.436",
+   "reference": -0.343,
+   "openem": -0.331,
+   "rel_diff": 0.03498542274052481,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) for through mode, TE0: -0.269, TE1: -0.343, TE2: -0.436",
+   "reference": -0.436,
+   "openem": -0.414,
+   "rel_diff": 0.05045871559633032,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) into cross mode, TE0: -48.640, TE1: -44.789, TE2: -37.736",
+   "reference": -48.64,
+   "openem": -45.326,
+   "rel_diff": 0.06813322368421053,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) into cross mode, TE0: -48.640, TE1: -44.789, TE2: -37.736",
+   "reference": -44.789,
+   "openem": -43.613,
+   "rel_diff": 0.026256446895443118,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Average transmittance (dB) into cross mode, TE0: -48.640, TE1: -44.789, TE2: -37.736",
+   "reference": -37.736,
+   "openem": -38.271,
+   "rel_diff": 0.014177443290226938,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04187134023155887
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.09318455433183216
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.09346728644974259
+  }
+ ]
+}

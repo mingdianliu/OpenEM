@@ -1,0 +1,174 @@
+{
+ "notebook": "PhaseChangeAntennas",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 16,
+  "openem": 16,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 16,
+  "n_numbers_compared": 14,
+  "max_rel_diff": 0.007172799254774199,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.2501400192526472
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_0: -0.00",
+   "reference": -0.0,
+   "openem": -0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_1: 38.03",
+   "reference": 38.03,
+   "openem": 38.01,
+   "rel_diff": 0.0005259006047857777,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_2: 107.05",
+   "reference": 107.05,
+   "openem": 107.1,
+   "rel_diff": 0.0004670714619336493,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_3: 162.07",
+   "reference": 162.07,
+   "openem": 162.09,
+   "rel_diff": 0.00012340346763750374,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_4: 180.00",
+   "reference": 180.0,
+   "openem": 180.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_5: 218.03",
+   "reference": 218.03,
+   "openem": 218.01,
+   "rel_diff": 9.173049580337674e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_6: 287.05",
+   "reference": 287.05,
+   "openem": 287.1,
+   "rel_diff": 0.00017418568193698438,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "ScatteringCylinder_7: 342.07",
+   "reference": 342.07,
+   "openem": 342.09,
+   "rel_diff": 5.846756511819748e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_0: -0.00",
+   "reference": -0.0,
+   "openem": -0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_1: 37.99",
+   "reference": 37.99,
+   "openem": 37.89,
+   "rel_diff": 0.002632271650434362,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_2: 107.35",
+   "reference": 107.35,
+   "openem": 108.12,
+   "rel_diff": 0.007172799254774199,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_3: 162.19",
+   "reference": 162.19,
+   "openem": 162.65,
+   "rel_diff": 0.0028361797891362475,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_4: 180.00",
+   "reference": 180.0,
+   "openem": 180.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_5: 217.99",
+   "reference": 217.99,
+   "openem": 217.89,
+   "rel_diff": 0.00045873663929548483,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_6: 287.35",
+   "reference": 287.35,
+   "openem": 288.12,
+   "rel_diff": 0.0026796589524968914,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "ScatteringCylinder_7: 342.19",
+   "reference": 342.19,
+   "openem": 342.65,
+   "rel_diff": 0.0013442824162014657,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.012856928119503449
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.2086262960817075
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.24870919751465825
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.2501400192526472
+  }
+ ]
+}

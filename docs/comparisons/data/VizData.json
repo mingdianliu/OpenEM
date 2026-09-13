@@ -1,0 +1,162 @@
+{
+ "notebook": "VizData",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 36,
+  "openem": 36,
+  "mismatched": 6
+ },
+ "summary": {
+  "n_numbers_total": 12,
+  "n_numbers_compared": 11,
+  "max_rel_diff": 0.0020576131687242817,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 8,
+  "n_figures_openem": 8,
+  "max_pixel_diff": 0.011086861632474902
+ },
+ "numbers": [
+  {
+   "cell": 7,
+   "label": "(5.0, 5.0, 5.0)",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "(5.0, 5.0, 5.0)",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "(5.0, 5.0, 5.0)",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "shape of flux dataset = (11,)",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "at central frequency, flux is 9.77e-01 W",
+   "reference": 0.977,
+   "openem": 0.978,
+   "rel_diff": 0.0010235414534288648,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "at 4th frequency, flux is 9.72e-01 W",
+   "reference": 0.972,
+   "openem": 0.974,
+   "rel_diff": 0.0020576131687242817,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "at an intermediate (not stored) frequency, flux is 9.78e-01 W",
+   "reference": 0.978,
+   "openem": 0.98,
+   "rel_diff": 0.0020449897750511267,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "(2, 11, 3)",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "(2, 11, 3)",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "(2, 11, 3)",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 32,
+   "label": "[108324 rows x 5 columns]",
+   "reference": 108324.0,
+   "openem": 108324.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 32,
+   "label": "[108324 rows x 5 columns]",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  }
+ ],
+ "figures": [
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.0034970393591083246
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.011086861632474902
+  },
+  {
+   "cell": 26,
+   "index": 0,
+   "pixel_diff": 0.004970714767013943
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.0036866537717601547
+  },
+  {
+   "cell": 28,
+   "index": 0,
+   "pixel_diff": 0.010802916945282043
+  },
+  {
+   "cell": 29,
+   "index": 0,
+   "pixel_diff": 0.0026162364866844402
+  },
+  {
+   "cell": 34,
+   "index": 0,
+   "pixel_diff": 0.006105431511326571
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "notebook": "StripToSlotConverters",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 24,
+  "openem": 24,
+  "mismatched": 3
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 12,
+  "n_figures_openem": 12,
+  "max_pixel_diff": 0.00507145624871789
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.001301989150090416
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.0036643946770529047
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.004193923369726255
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.0007120253164556962
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.0037798494138384276
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.000636207805907173
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.00507145624871789
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.0002966772151898734
+  }
+ ]
+}

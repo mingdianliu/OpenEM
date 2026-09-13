@@ -127,6 +127,7 @@ quietly substituting something else.
 | [`docs/tutorial.md`](docs/tutorial.md) | three worked steps: slab transmission against the analytic formula, a waveguide mode source and mode monitor, a gradient through autograd |
 | [`docs/architecture.md`](docs/architecture.md) | directory tree, one line per module, and the import boundaries the tests lock down |
 | [`docs/validation.md`](docs/validation.md) | the 128-notebook comparison, one row per notebook |
+| [`docs/comparisons/`](docs/comparisons/) | the same comparison in full: every one of the 6,003 paired numbers and 1,125 figures, one page and one JSON file per notebook |
 | [`docs/performance.md`](docs/performance.md) | per-example timing against the reference implementation |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | the rule for changing solver code: the golden set must stay bit for bit identical |
 

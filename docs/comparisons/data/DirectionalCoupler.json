@@ -1,0 +1,67 @@
+{
+ "notebook": "DirectionalCoupler",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 2,
+  "n_numbers_compared": 2,
+  "max_rel_diff": 0.0011099899091826335,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.05259946949602122
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "Crossing wavelength :1.53",
+   "reference": 1.53,
+   "openem": 1.53,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Total transmittance: 0.9910",
+   "reference": 0.991,
+   "openem": 0.9899,
+   "rel_diff": 0.0011099899091826335,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.046394795202618785
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.03059898836154544
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.023676237691936927
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.05259946949602122
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.023986091028024514
+  }
+ ]
+}

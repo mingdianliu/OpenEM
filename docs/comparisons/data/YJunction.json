@@ -1,0 +1,55 @@
+{
+ "notebook": "YJunction",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.05450787188502753
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.021802210461892933
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.041871037205407344
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.040294480419364787
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05450787188502753
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.029506985389338332
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.04173807559119537
+  }
+ ]
+}

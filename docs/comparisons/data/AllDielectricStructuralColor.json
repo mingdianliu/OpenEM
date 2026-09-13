@@ -1,0 +1,1084 @@
+{
+ "notebook": "AllDielectricStructuralColor",
+ "category": "Example Library",
+ "verdict": "close",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 131,
+  "n_numbers_compared": 114,
+  "max_rel_diff": 0.9415866483767718,
+  "n_over_5pct": 31,
+  "n_over_20pct": 6,
+  "n_near_zero_over_5pct": 5,
+  "n_figures_reference": 2,
+  "n_figures_openem": 2,
+  "max_pixel_diff": 0.027316266970827344
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "0     0.30  FluxData(\\n    monitor...",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "0     0.30  FluxData(\\n    monitor...",
+   "reference": 0.3,
+   "openem": 0.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1     0.31  FluxData(\\n    monitor...",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1     0.31  FluxData(\\n    monitor...",
+   "reference": 0.31,
+   "openem": 0.31,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "2     0.32  FluxData(\\n    monitor...",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "2     0.32  FluxData(\\n    monitor...",
+   "reference": 0.32,
+   "openem": 0.32,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3     0.33  FluxData(\\n    monitor...",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3     0.33  FluxData(\\n    monitor...",
+   "reference": 0.33,
+   "openem": 0.33,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "4     0.34  FluxData(\\n    monitor...",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "4     0.34  FluxData(\\n    monitor...",
+   "reference": 0.34,
+   "openem": 0.34,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "5     0.35  FluxData(\\n    monitor...",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "5     0.35  FluxData(\\n    monitor...",
+   "reference": 0.35,
+   "openem": 0.35,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "6     0.36  FluxData(\\n    monitor...",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "6     0.36  FluxData(\\n    monitor...",
+   "reference": 0.36,
+   "openem": 0.36,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "7     0.37  FluxData(\\n    monitor...",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "7     0.37  FluxData(\\n    monitor...",
+   "reference": 0.37,
+   "openem": 0.37,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "8     0.38  FluxData(\\n    monitor...",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "8     0.38  FluxData(\\n    monitor...",
+   "reference": 0.38,
+   "openem": 0.38,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "9     0.39  FluxData(\\n    monitor...",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "9     0.39  FluxData(\\n    monitor...",
+   "reference": 0.39,
+   "openem": 0.39,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "10    0.40  FluxData(\\n    monitor...",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "10    0.40  FluxData(\\n    monitor...",
+   "reference": 0.4,
+   "openem": 0.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0           1.009200            0.444",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "0           1.009200            0.444",
+   "reference": 1.0092,
+   "openem": 1.008499,
+   "rel_diff": 0.0006946095917559083,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0           1.009200            0.444",
+   "reference": 0.444,
+   "openem": 0.444,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1           0.997011            0.464",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1           0.997011            0.464",
+   "reference": 0.997011,
+   "openem": 0.994801,
+   "rel_diff": 0.0022166254936003054,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1           0.997011            0.464",
+   "reference": 0.464,
+   "openem": 0.462,
+   "rel_diff": 0.00431034482758621,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "2           0.997076            0.482",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "2           0.997076            0.482",
+   "reference": 0.997076,
+   "openem": 0.998629,
+   "rel_diff": 0.0015575542887403032,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "2           0.997076            0.482",
+   "reference": 0.482,
+   "openem": 0.482,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3           0.998999            0.502",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3           0.998999            0.502",
+   "reference": 0.998999,
+   "openem": 1.001388,
+   "rel_diff": 0.0023913937851789387,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3           0.998999            0.502",
+   "reference": 0.502,
+   "openem": 0.502,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "4           0.998316            0.520",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "4           0.998316            0.520",
+   "reference": 0.998316,
+   "openem": 0.999869,
+   "rel_diff": 0.0015556196635133832,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "4           0.998316            0.520",
+   "reference": 0.52,
+   "openem": 0.52,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "5           1.000895            0.538",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "5           1.000895            0.538",
+   "reference": 1.000895,
+   "openem": 1.000703,
+   "rel_diff": 0.0001918283136594668,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "5           1.000895            0.538",
+   "reference": 0.538,
+   "openem": 0.538,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "6           0.996075            0.556",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "6           0.996075            0.556",
+   "reference": 0.996075,
+   "openem": 0.997642,
+   "rel_diff": 0.001573174710739638,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "6           0.996075            0.556",
+   "reference": 0.556,
+   "openem": 0.556,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "7           0.997551            0.572",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "7           0.997551            0.572",
+   "reference": 0.997551,
+   "openem": 0.999578,
+   "rel_diff": 0.00203197630998315,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "7           0.997551            0.572",
+   "reference": 0.572,
+   "openem": 0.572,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "8           0.995077            0.590",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "8           0.995077            0.590",
+   "reference": 0.995077,
+   "openem": 0.995285,
+   "rel_diff": 0.00020902905001320097,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "8           0.995077            0.590",
+   "reference": 0.59,
+   "openem": 0.59,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "9           0.996840            0.606",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "9           0.996840            0.606",
+   "reference": 0.99684,
+   "openem": 0.997538,
+   "rel_diff": 0.0007002126720437457,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "9           0.996840            0.606",
+   "reference": 0.606,
+   "openem": 0.606,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "10          0.997692            0.622",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "10          0.997692            0.622",
+   "reference": 0.997692,
+   "openem": 1.000125,
+   "rel_diff": 0.002438628354241497,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "10          0.997692            0.622",
+   "reference": 0.622,
+   "openem": 0.622,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.3,
+   "openem": 0.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.31,
+   "openem": 0.31,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.32,
+   "openem": 0.32,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.33,
+   "openem": 0.33,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.34,
+   "openem": 0.34,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.3      0.31      0.32      0.33      0.34      0.35  \\",
+   "reference": 0.35,
+   "openem": 0.35,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.4,
+   "openem": 0.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.024053,
+   "openem": 0.01935,
+   "rel_diff": 0.1955265455452543,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.008743,
+   "openem": 0.009329,
+   "rel_diff": 0.06702504861031679,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.004407,
+   "openem": 0.005126,
+   "rel_diff": 0.16314953483095077,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.00508,
+   "openem": 0.005702,
+   "rel_diff": 0.12244094488188961,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.003938,
+   "openem": 0.004328,
+   "rel_diff": 0.09750000000000014,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.024053  0.008743  0.004407  0.005080  0.003938  0.003471",
+   "reference": 0.003471,
+   "openem": 0.003294,
+   "rel_diff": 0.04425000000000002,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.402,
+   "openem": 0.402,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.025848,
+   "openem": 0.022319,
+   "rel_diff": 0.13652893840916128,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.009191,
+   "openem": 0.00884,
+   "rel_diff": 0.03818953323903807,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.004337,
+   "openem": 0.005058,
+   "rel_diff": 0.16624394742909854,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.004915,
+   "openem": 0.005694,
+   "rel_diff": 0.15849440488301123,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.004197,
+   "openem": 0.004706,
+   "rel_diff": 0.1212771026923993,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.025848  0.009191  0.004337  0.004915  0.004197  0.003276",
+   "reference": 0.003276,
+   "openem": 0.003263,
+   "rel_diff": 0.003233830845771142,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.404,
+   "openem": 0.404,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.02807,
+   "openem": 0.026826,
+   "rel_diff": 0.044317776986106235,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.010223,
+   "openem": 0.008726,
+   "rel_diff": 0.14643451041768563,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.004357,
+   "openem": 0.005004,
+   "rel_diff": 0.1484966720220335,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.004721,
+   "openem": 0.005537,
+   "rel_diff": 0.1728447362846854,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.004453,
+   "openem": 0.005007,
+   "rel_diff": 0.12441050976869521,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.028070  0.010223  0.004357  0.004721  0.004453  0.003300",
+   "reference": 0.0033,
+   "openem": 0.003406,
+   "rel_diff": 0.026237623762376285,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.406,
+   "openem": 0.406,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.031166,
+   "openem": 0.032725,
+   "rel_diff": 0.05002246037348386,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.010515,
+   "openem": 0.009201,
+   "rel_diff": 0.12496433666191148,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.004496,
+   "openem": 0.004945,
+   "rel_diff": 0.09986654804270458,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.004551,
+   "openem": 0.005139,
+   "rel_diff": 0.1292023731048121,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.004697,
+   "openem": 0.00529,
+   "rel_diff": 0.12625079838194606,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.031166  0.010515  0.004496  0.004551  0.004697  0.003417",
+   "reference": 0.003417,
+   "openem": 0.00368,
+   "rel_diff": 0.06477832512315276,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.408,
+   "openem": 0.408,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.033242,
+   "openem": 0.039527,
+   "rel_diff": 0.18906804644726546,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.01185,
+   "openem": 0.009272,
+   "rel_diff": 0.21755274261603366,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.004734,
+   "openem": 0.004867,
+   "rel_diff": 0.028094634558512764,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.004389,
+   "openem": 0.004663,
+   "rel_diff": 0.06242879927090453,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.004984,
+   "openem": 0.005643,
+   "rel_diff": 0.13222311396468697,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.033242  0.011850  0.004734  0.004389  0.004984  0.003665",
+   "reference": 0.003665,
+   "openem": 0.004042,
+   "rel_diff": 0.09240196078431367,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.36      0.37      0.38      0.39       0.4",
+   "reference": 0.36,
+   "openem": 0.36,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.36      0.37      0.38      0.39       0.4",
+   "reference": 0.37,
+   "openem": 0.37,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.36      0.37      0.38      0.39       0.4",
+   "reference": 0.38,
+   "openem": 0.38,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.36      0.37      0.38      0.39       0.4",
+   "reference": 0.39,
+   "openem": 0.39,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.36      0.37      0.38      0.39       0.4",
+   "reference": 0.4,
+   "openem": 0.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.4,
+   "openem": 0.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.004208,
+   "openem": 0.003942,
+   "rel_diff": 0.06321292775665394,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.00586,
+   "openem": 0.005875,
+   "rel_diff": 0.0025597269624573816,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.008415,
+   "openem": 0.009001,
+   "rel_diff": 0.06963755199049312,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.114277,
+   "openem": 0.129414,
+   "rel_diff": 0.1324588499873115,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.400       0.004208  0.005860  0.008415  0.114277  0.013117",
+   "reference": 0.013117,
+   "openem": 0.016537,
+   "rel_diff": 0.2607303499275749,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.402,
+   "openem": 0.402,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.003625,
+   "openem": 0.003332,
+   "rel_diff": 0.07288557213930355,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.004769,
+   "openem": 0.004684,
+   "rel_diff": 0.017823443069825962,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.006464,
+   "openem": 0.006798,
+   "rel_diff": 0.05167079207920793,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.347908,
+   "openem": 0.357256,
+   "rel_diff": 0.02686917230992108,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.402       0.003625  0.004769  0.006464  0.347908  0.008748",
+   "reference": 0.008748,
+   "openem": 0.016985,
+   "rel_diff": 0.9415866483767718,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.404,
+   "openem": 0.404,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.003159,
+   "openem": 0.002967,
+   "rel_diff": 0.0475247524752475,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.003925,
+   "openem": 0.003749,
+   "rel_diff": 0.04356435643564344,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.00507,
+   "openem": 0.005205,
+   "rel_diff": 0.026627218934911354,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.211194,
+   "openem": 0.224147,
+   "rel_diff": 0.061332234817277106,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.404       0.003159  0.003925  0.005070  0.211194  0.011710",
+   "reference": 0.01171,
+   "openem": 0.014648,
+   "rel_diff": 0.2508966695132365,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.406,
+   "openem": 0.406,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.002979,
+   "openem": 0.002821,
+   "rel_diff": 0.038916256157635394,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.003258,
+   "openem": 0.003062,
+   "rel_diff": 0.04827586206896551,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.003917,
+   "openem": 0.004,
+   "rel_diff": 0.020443349753694516,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.047576,
+   "openem": 0.049011,
+   "rel_diff": 0.03016226668908691,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.406       0.002979  0.003258  0.003917  0.047576  0.016178",
+   "reference": 0.016178,
+   "openem": 0.004739,
+   "rel_diff": 0.707071331437755,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.408,
+   "openem": 0.408,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.002859,
+   "openem": 0.002865,
+   "rel_diff": 0.0014705882352941005,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.002835,
+   "openem": 0.002612,
+   "rel_diff": 0.05465686274509797,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.003093,
+   "openem": 0.00309,
+   "rel_diff": 0.0007352941176470502,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.014697,
+   "openem": 0.014619,
+   "rel_diff": 0.005307205552153497,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "0.408       0.002859  0.002835  0.003093  0.014697  0.025021",
+   "reference": 0.025021,
+   "openem": 0.030287,
+   "rel_diff": 0.2104632109028416,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.0009997409997409997
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.027316266970827344
+  }
+ ]
+}

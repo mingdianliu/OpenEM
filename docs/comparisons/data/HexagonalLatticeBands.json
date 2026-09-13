@@ -1,0 +1,211 @@
+{
+ "notebook": "HexagonalLatticeBands",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 12,
+  "openem": 12,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 20,
+  "n_numbers_compared": 20,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.0805820694170839
+ },
+ "numbers": [
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "'interval > 1' or by choosing alternative 'start' and 'stop' values",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "explicitly setting 'interval=1' in the monitor.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "'interval > 1' or by choosing alternative 'start' and 'stop' values",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "explicitly setting 'interval=1' in the monitor.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "'interval > 1' or by choosing alternative 'start' and 'stop' values",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "explicitly setting 'interval=1' in the monitor.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "'interval > 1' or by choosing alternative 'start' and 'stop' values",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "explicitly setting 'interval=1' in the monitor.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "value, which will set it to 1 internally. A value of 1 means that",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "'interval > 1' or by choosing alternative 'start' and 'stop' values",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "explicitly setting 'interval=1' in the monitor.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 1,
+   "index": 0,
+   "pixel_diff": 0.0805820694170839
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.05090732169156322
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.02399366560380064
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.025896656534954408
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.06514967790829859
+  }
+ ]
+}

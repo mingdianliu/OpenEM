@@ -1,0 +1,261 @@
+{
+ "notebook": "GratingEfficiency",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 2
+ },
+ "summary": {
+  "n_numbers_total": 25,
+  "n_numbers_compared": 19,
+  "max_rel_diff": 0.001284428200564948,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.08779751302017066
+ },
+ "numbers": [
+  {
+   "cell": 6,
+   "label": "Total power: 0.9984229082058051",
+   "reference": 0.9984229082058051,
+   "openem": 0.9997053107451948,
+   "rel_diff": 0.001284428200564948,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 63.09,
+   "openem": 63.09,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 41.98,
+   "openem": 41.98,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 26.48,
+   "openem": 26.48,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 12.88,
+   "openem": 12.88,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 12.88,
+   "openem": 12.88,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 26.48,
+   "openem": 26.48,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 41.98,
+   "openem": 41.98,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Theta (degrees): 63.09, 41.98, 26.48, 12.88, 0.00, 12.88, 26.48, 41.98, 63.09",
+   "reference": 63.09,
+   "openem": 63.09,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "[[[ 0.00000000e+00+0.00000000e+00j,",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "[[[ 0.00000000e+00+0.00000000e+00j,",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "[[[ 0.00000000e+00+0.00000000e+00j,",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "[[[ 0.00000000e+00+0.00000000e+00j,",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 6,
+   "label": "[[[ 0.00000000e+00+0.00000000e+00j,",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 13,
+   "label": "Total power: 1.0007346889466473",
+   "reference": 1.0007346889466473,
+   "openem": 1.0001412176059337,
+   "rel_diff": 0.0005930356439810353,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 59.97,
+   "openem": 59.97,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 41.1,
+   "openem": 41.1,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 27.56,
+   "openem": 27.56,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 16.04,
+   "openem": 16.04,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 23.3,
+   "openem": 23.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 35.43,
+   "openem": 35.43,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 51.66,
+   "openem": 51.66,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Theta (degrees): 59.97, 41.10, 27.56, 18.00, 16.04, 23.30, 35.43, 51.66, 85.40",
+   "reference": 85.4,
+   "openem": 85.4,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.04862618619363642
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.06770369049741487
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.08616198493397298
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.0630862278686309
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.050895450561160474
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.08779751302017066
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.07114628951946728
+  }
+ ]
+}

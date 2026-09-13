@@ -1,0 +1,307 @@
+{
+ "notebook": "ParameterScanWebRun",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 23,
+  "openem": 23,
+  "mismatched": 4
+ },
+ "summary": {
+  "n_numbers_total": 32,
+  "n_numbers_compared": 30,
+  "max_rel_diff": 6.8,
+  "n_over_5pct": 2,
+  "n_over_20pct": 2,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.0931539874483392
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.00",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.00",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "phase       = 0.05 (rad)",
+   "reference": 0.05,
+   "openem": 0.39,
+   "rel_diff": 6.8,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.00",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.00",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "phase       = -2.49 (rad)",
+   "reference": -2.49,
+   "openem": 2.81,
+   "rel_diff": 2.1285140562249,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.05",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.05",
+   "reference": 0.05,
+   "openem": 0.05,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "phase       = -2.58 (rad)",
+   "reference": -2.58,
+   "openem": -2.68,
+   "rel_diff": 0.038759689922480654,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.94",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "amplitude^2 = 0.94",
+   "reference": 0.94,
+   "openem": 0.95,
+   "rel_diff": 0.010638297872340436,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "phase       = 2.13 (rad)",
+   "reference": 2.13,
+   "openem": 2.03,
+   "rel_diff": 0.04694835680751178,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "(4, 11)",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "(4, 11)",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "[[{'wg_spacing_coup': 0.1,",
+   "reference": 0.1,
+   "openem": 0.1,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 6.0,",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.1,",
+   "reference": 0.1,
+   "openem": 0.1,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 8.0,",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.1,",
+   "reference": 0.1,
+   "openem": 0.1,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 10.0,",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "[{'wg_spacing_coup': 0.15,",
+   "reference": 0.15,
+   "openem": 0.15,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 6.5,",
+   "reference": 6.5,
+   "openem": 6.5,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.15,",
+   "reference": 0.15,
+   "openem": 0.15,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 8.5,",
+   "reference": 8.5,
+   "openem": 8.5,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.15,",
+   "reference": 0.15,
+   "openem": 0.15,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 10.5,",
+   "reference": 10.5,
+   "openem": 10.5,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "[{'wg_spacing_coup': 0.2,",
+   "reference": 0.2,
+   "openem": 0.2,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 7.0,",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.2,",
+   "reference": 0.2,
+   "openem": 0.2,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 9.0,",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "{'wg_spacing_coup': 0.2,",
+   "reference": 0.2,
+   "openem": 0.2,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 21,
+   "label": "'coup_length': 11.0,",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.04832412038255681
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.06706725168905801
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.0513358763364761
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.0931539874483392
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.056514572708410094
+  }
+ ]
+}

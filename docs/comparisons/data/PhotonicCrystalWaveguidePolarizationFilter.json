@@ -1,0 +1,50 @@
+{
+ "notebook": "PhotonicCrystalWaveguidePolarizationFilter",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 16,
+  "openem": 16,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.11104350742436879
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.05218939969604863
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.07868033970483859
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.06560483197700165
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.11104350742436879
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04309397782882253
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "notebook": "TopoQuantumPhC",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 13,
+  "openem": 13,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.10000451228366676
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.0007991867923866943
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.10000451228366676
+  }
+ ]
+}

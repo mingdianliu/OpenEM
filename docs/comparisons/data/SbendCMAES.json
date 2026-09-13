@@ -1,0 +1,243 @@
+{
+ "notebook": "SbendCMAES",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 24,
+  "n_numbers_compared": 18,
+  "max_rel_diff": 0.012195121951219523,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.08689729067809582
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "Generation 0: Best function value = 0.271",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "Generation 0: Best function value = 0.271",
+   "reference": 0.271,
+   "openem": 0.271,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 1: Best function value = 0.265",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 1: Best function value = 0.265",
+   "reference": 0.265,
+   "openem": 0.265,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 2: Best function value = 0.229",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 2: Best function value = 0.229",
+   "reference": 0.229,
+   "openem": 0.229,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 3: Best function value = 0.216",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 3: Best function value = 0.216",
+   "reference": 0.216,
+   "openem": 0.217,
+   "rel_diff": 0.004629629629629634,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 4: Best function value = 0.173",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 4: Best function value = 0.173",
+   "reference": 0.173,
+   "openem": 0.174,
+   "rel_diff": 0.005780346820809254,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 5: Best function value = 0.119",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 5: Best function value = 0.119",
+   "reference": 0.119,
+   "openem": 0.12,
+   "rel_diff": 0.008403361344537823,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 6: Best function value = 0.082",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 6: Best function value = 0.082",
+   "reference": 0.082,
+   "openem": 0.083,
+   "rel_diff": 0.012195121951219523,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 7: Best function value = 0.064",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 7: Best function value = 0.064",
+   "reference": 0.064,
+   "openem": 0.065,
+   "rel_diff": 0.014285714285714297,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "Generation 8: Best function value = 0.064",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 8: Best function value = 0.064",
+   "reference": 0.064,
+   "openem": 0.065,
+   "rel_diff": 0.012500000000000011,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "Generation 9: Best function value = 0.061",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 9: Best function value = 0.061",
+   "reference": 0.061,
+   "openem": 0.061,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "Generation 10: Best function value = 0.044",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 10: Best function value = 0.044",
+   "reference": 0.044,
+   "openem": 0.044,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "Generation 11: Best function value = 0.040",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Generation 11: Best function value = 0.040",
+   "reference": 0.04,
+   "openem": 0.041,
+   "rel_diff": 0.0090909090909091,
+   "near_zero": true
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.024988413242256365
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.08689729067809582
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.033179012345679014
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.02591995702390545
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.04436388129482151
+  }
+ ]
+}

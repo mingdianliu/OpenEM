@@ -1,0 +1,161 @@
+{
+ "notebook": "CavityFOM",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 15,
+  "n_numbers_compared": 8,
+  "max_rel_diff": 0.00043606235691703914,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.0018258454247033
+ },
+ "numbers": [
+  {
+   "cell": 1,
+   "label": "Total runtime = 5.52 ps",
+   "reference": 5.52,
+   "openem": 5.52,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 1,
+   "label": "Start monitoring fields after 0.55 ps",
+   "reference": 0.55,
+   "openem": 0.55,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": 329709200000000.0,
+   "openem": 329709500000000.0,
+   "rel_diff": 9.098927175826456e-07,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": 10912200000.0,
+   "openem": 10917490000.0,
+   "rel_diff": 1.6044441586707316e-06,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": 94922.365484,
+   "openem": 94876.480281,
+   "rel_diff": 1.391687068483318e-11,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": 144631.787403,
+   "openem": 144632.771939,
+   "rel_diff": 2.9860737886706606e-13,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": -2.015378,
+   "openem": -2.015934,
+   "rel_diff": 1.6863345032531725e-16,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "3.297092e+14  1.091220e+10  94922.365484  144631.787403 -2.015378  0.000069",
+   "reference": 6.9e-05,
+   "openem": 7.8e-05,
+   "rel_diff": 2.7296781527479373e-18,
+   "near_zero": true
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 0.014 um^3",
+   "reference": 0.014,
+   "openem": 0.014,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 0.014 um^3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 1.431e-20 m^3",
+   "reference": 1.431e-20,
+   "openem": 1.431e-20,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 1.431e-20 m^3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 0.79 (lambda/n)^3",
+   "reference": 0.79,
+   "openem": 0.79,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "V_eff = 0.79 (lambda/n)^3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "F_p = 9173",
+   "reference": 9173.0,
+   "openem": 9169.0,
+   "rel_diff": 0.00043606235691703914,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.0018258454247033
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.00017465626161278336
+  }
+ ]
+}

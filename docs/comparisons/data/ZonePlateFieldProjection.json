@@ -1,0 +1,45 @@
+{
+ "notebook": "ZonePlateFieldProjection",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.12544836116264688
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.04063807152010445
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.09129149974217604
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.12544836116264688
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.03860157829973721
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "notebook": "EdgeCoupler",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 22,
+  "openem": 22,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 8,
+  "n_figures_openem": 8,
+  "max_pixel_diff": 0.07756512723031063
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.04554602016734606
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.07756512723031063
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05074419251634441
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.034671651919713935
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.05784019789208077
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.060622730773462426
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.05227291695646126
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.06405976454244544
+  }
+ ]
+}

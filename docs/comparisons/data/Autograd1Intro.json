@@ -1,0 +1,102 @@
+{
+ "notebook": "Autograd1Intro",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 7,
+  "n_numbers_compared": 7,
+  "max_rel_diff": 0.029292359878692716,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.039835515273581736
+ },
+ "numbers": [
+  {
+   "cell": 5,
+   "label": "1.7015115293406988",
+   "reference": 1.7015115293406988,
+   "openem": 1.7015115293406988,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "dgdx=1.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "dgdx=1.0, dgdy=1.0, dgdz=2.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "dgdx=1.0, dgdy=1.0, dgdz=2.0",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "dgdx=1.0, dgdy=1.0, dgdz=2.0",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 16,
+   "label": "power = 0.552",
+   "reference": 0.552,
+   "openem": 0.547,
+   "rel_diff": 0.009057971014492761,
+   "near_zero": false
+  },
+  {
+   "cell": 16,
+   "label": "d_power/d_eps = -0.16138196406328512",
+   "reference": -0.16138196406328512,
+   "openem": -0.1566547054940131,
+   "rel_diff": 0.029292359878692716,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.02183614119534697
+  },
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.030673385479342157
+  },
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.030581461425324242
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.039835515273581736
+  }
+ ]
+}

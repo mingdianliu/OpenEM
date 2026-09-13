@@ -1,0 +1,54 @@
+{
+ "notebook": "PlasmonicNanorodArray",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 17,
+  "openem": 17,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 1,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 4,
+  "n_figures_openem": 4,
+  "max_pixel_diff": 0.2682505461653444
+ },
+ "numbers": [
+  {
+   "cell": 15,
+   "label": "The calculated incident field strength is 212.83 V/um.",
+   "reference": 212.83,
+   "openem": 212.83,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.08927389395474501
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.06123828406633021
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.22667873979533174
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.2682505461653444
+  }
+ ]
+}

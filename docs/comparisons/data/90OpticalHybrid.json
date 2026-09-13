@@ -1,0 +1,75 @@
+{
+ "notebook": "90OpticalHybrid",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 23,
+  "openem": 23,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 10,
+  "n_figures_openem": 10,
+  "max_pixel_diff": 0.062389167085821796
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.04737899274936312
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.02670416045534625
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.051804767491042
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.04334169830690762
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.042276506562220845
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.02962486892399283
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.05706747052895947
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.042066927781213494
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.030511111862801473
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.062389167085821796
+  }
+ ]
+}

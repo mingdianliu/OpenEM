@@ -1,0 +1,107 @@
+{
+ "notebook": "Bandstructure",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 16,
+  "openem": 16,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 7,
+  "n_numbers_compared": 2,
+  "max_rel_diff": 3.1772700469048396,
+  "n_over_5pct": 1,
+  "n_over_20pct": 1,
+  "n_near_zero_over_5pct": 1,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.011484944960268598
+ },
+ "numbers": [
+  {
+   "cell": 2,
+   "label": "Total runtime = 6.74 ps",
+   "reference": 6.74,
+   "openem": 6.74,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 25590110000000.0,
+   "openem": 106896800000000.0,
+   "rel_diff": 3.1772700469048396,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 115970900.0,
+   "openem": 116897900000.0,
+   "rel_diff": 0.4563557135940408,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 693222.812687,
+   "openem": 2872.816934,
+   "rel_diff": 2.6977218767445705e-06,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 0.001382,
+   "openem": 0.012521,
+   "rel_diff": 4.352853504732883e-14,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 1.241659,
+   "openem": 2.523755,
+   "rel_diff": 5.010123051444483e-12,
+   "near_zero": true
+  },
+  {
+   "cell": 12,
+   "label": "2.559011e+13  1.159709e+08  693222.812687   0.001382  1.241659  0.000016",
+   "reference": 1.6e-05,
+   "openem": 1.5e-05,
+   "rel_diff": 3.907759677469143e-18,
+   "near_zero": true
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 8,
+   "index": 1,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.011484944960268598
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.007077724038076461
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.0006000303812851283
+  }
+ ]
+}

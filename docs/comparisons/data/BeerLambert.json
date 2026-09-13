@@ -1,0 +1,73 @@
+{
+ "notebook": "BeerLambert",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 9,
+  "openem": 9,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 4,
+  "n_numbers_compared": 4,
+  "max_rel_diff": 0.01010101010101011,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.05999193529258284
+ },
+ "numbers": [
+  {
+   "cell": 2,
+   "label": "medium  conductivity: 0.003982",
+   "reference": 0.003982,
+   "openem": 0.003982,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 2,
+   "label": "medium2 conductivity: 0.003982",
+   "reference": 0.003982,
+   "openem": 0.003982,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Total absorbed power: 0.99",
+   "reference": 0.99,
+   "openem": 1.0,
+   "rel_diff": 0.01010101010101011,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Analytical absorbed power: 0.99",
+   "reference": 0.99,
+   "openem": 0.99,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.03400163666121113
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.05999193529258284
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.036463360272884084
+  }
+ ]
+}

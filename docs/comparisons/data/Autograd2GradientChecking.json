@@ -1,0 +1,287 @@
+{
+ "notebook": "Autograd2GradientChecking",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 2
+ },
+ "summary": {
+  "n_numbers_total": 32,
+  "n_numbers_compared": 32,
+  "max_rel_diff": 0.0013610275288299001,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 1,
+  "n_figures_openem": 1,
+  "max_pixel_diff": 0.0500120463455768
+ },
+ "numbers": [
+  {
+   "cell": 3,
+   "label": "T (tmm) = 0.786",
+   "reference": 0.786,
+   "openem": 0.786,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.2766323,
+   "openem": -0.2766323,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": 0.01377339,
+   "openem": 0.01377339,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.2032054,
+   "openem": -0.2032054,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.28999361,
+   "openem": -0.28999361,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -1.75199732,
+   "openem": -1.75199732,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -0.21552416,
+   "openem": -0.21552416,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": 1.00729645,
+   "openem": 1.00729645,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "gradient w.r.t. ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -2.08209951,
+   "openem": -2.08209951,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0.7851633658072134",
+   "reference": 0.7851633658072134,
+   "openem": 0.7850574894906953,
+   "rel_diff": 0.0001348462258031984,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "T (tmm)  = 0.78581",
+   "reference": 0.78581,
+   "openem": 0.78581,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "T (FDTD) = 0.78516",
+   "reference": 0.78516,
+   "openem": 0.78506,
+   "rel_diff": 0.00012736257578071857,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.2766323,
+   "openem": -0.2766323,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": 0.01377339,
+   "openem": 0.01377339,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.2032054,
+   "openem": -0.2032054,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_eps (tmm)  = [-0.2766323   0.01377339 -0.2032054  -0.28999361]",
+   "reference": -0.28999361,
+   "openem": -0.28999361,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -1.75199732,
+   "openem": -1.75199732,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -0.21552416,
+   "openem": -0.21552416,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": 1.00729645,
+   "openem": 1.00729645,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "grad_ds  (tmm)  = [-1.75199732 -0.21552416  1.00729645 -2.08209951]",
+   "reference": -2.08209951,
+   "openem": -2.08209951,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (tmm)  = [-0.61534061  0.03063751 -0.45200988 -0.64506151]",
+   "reference": -0.61534061,
+   "openem": -0.61534061,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (tmm)  = [-0.61534061  0.03063751 -0.45200988 -0.64506151]",
+   "reference": 0.03063751,
+   "openem": 0.03063751,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (tmm)  = [-0.61534061  0.03063751 -0.45200988 -0.64506151]",
+   "reference": -0.45200988,
+   "openem": -0.45200988,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (tmm)  = [-0.61534061  0.03063751 -0.45200988 -0.64506151]",
+   "reference": -0.64506151,
+   "openem": -0.64506151,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (FDTD)  = [-0.61546297  0.03088108 -0.45142613 -0.64534188]",
+   "reference": -0.61546297,
+   "openem": -0.61547136,
+   "rel_diff": 1.3632014286690968e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (FDTD)  = [-0.61546297  0.03088108 -0.45142613 -0.64534188]",
+   "reference": 0.03088108,
+   "openem": 0.03092311,
+   "rel_diff": 0.0013610275288299001,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (FDTD)  = [-0.61546297  0.03088108 -0.45142613 -0.64534188]",
+   "reference": -0.45142613,
+   "openem": -0.45139135,
+   "rel_diff": 7.704472047277484e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_eps (FDTD)  = [-0.61546297  0.03088108 -0.45142613 -0.64534188]",
+   "reference": -0.64534188,
+   "openem": -0.64535619,
+   "rel_diff": 2.2174293104860717e-05,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_ds  (tmm)  = [-0.60214521 -0.07407365  0.34619844 -0.71559827]",
+   "reference": -0.60214521,
+   "openem": -0.60214521,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_ds  (tmm)  = [-0.60214521 -0.07407365  0.34619844 -0.71559827]",
+   "reference": -0.07407365,
+   "openem": -0.07407365,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_ds  (tmm)  = [-0.60214521 -0.07407365  0.34619844 -0.71559827]",
+   "reference": 0.34619844,
+   "openem": 0.34619844,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "grad_ds  (tmm)  = [-0.60214521 -0.07407365  0.34619844 -0.71559827]",
+   "reference": -0.71559827,
+   "openem": -0.71559827,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0500120463455768
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "notebook": "QMRSMetasurface",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 15,
+  "openem": 15,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.5245064370542367
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.5245064370542367
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.09953507208327805
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.10993013069531164
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.11667525124640234
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.11890648060267255
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.13381092345211662
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.3422698787947015
+  }
+ ]
+}

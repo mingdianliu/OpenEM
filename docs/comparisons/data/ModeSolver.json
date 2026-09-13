@@ -1,0 +1,225 @@
+{
+ "notebook": "ModeSolver",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 34,
+  "openem": 34,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 13,
+  "n_numbers_compared": 12,
+  "max_rel_diff": 0.011299435028248598,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 19,
+  "n_figures_openem": 19,
+  "max_pixel_diff": 0.13772355403348555
+ },
+ "numbers": [
+  {
+   "cell": 9,
+   "label": "first mode effective index at freq0: n_eff = 1.77, k_eff = 0.00e+00",
+   "reference": 1.77,
+   "openem": 1.75,
+   "rel_diff": 0.011299435028248598,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "first mode effective index at freq0: n_eff = 1.77, k_eff = 0.00e+00",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 12",
+   "reference": 12.0,
+   "openem": 12.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 14",
+   "reference": 14.0,
+   "openem": 14.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 16",
+   "reference": 16.0,
+   "openem": 16.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 22",
+   "reference": 22.0,
+   "openem": 22.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 24",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 26",
+   "reference": 26.0,
+   "openem": 26.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 28",
+   "reference": 28.0,
+   "openem": 28.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 25,
+   "label": "Solving for resolution = 30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.030213645155618075
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.05135867790188778
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.04545382481173207
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.05433175060325368
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.07858194498256489
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.05693181818181818
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.035774000554697094
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.06370209753337658
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.04290368410738781
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.06198994629532535
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.05339677504625958
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.042540335750212294
+  },
+  {
+   "cell": 26,
+   "index": 0,
+   "pixel_diff": 0.13772355403348555
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.03109284332688588
+  },
+  {
+   "cell": 29,
+   "index": 0,
+   "pixel_diff": 0.10860441570318113
+  },
+  {
+   "cell": 30,
+   "index": 0,
+   "pixel_diff": 0.049640304720018846
+  },
+  {
+   "cell": 32,
+   "index": 0,
+   "pixel_diff": 0.11081308380691096
+  },
+  {
+   "cell": 32,
+   "index": 1,
+   "pixel_diff": 0.05195319249195005
+  },
+  {
+   "cell": 33,
+   "index": 0,
+   "pixel_diff": 0.10891119786825308
+  }
+ ]
+}

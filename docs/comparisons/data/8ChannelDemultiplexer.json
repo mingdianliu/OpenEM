@@ -1,0 +1,110 @@
+{
+ "notebook": "8ChannelDemultiplexer",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 44,
+  "openem": 44,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 17,
+  "n_figures_openem": 17,
+  "max_pixel_diff": 0.07658052905201194
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.07657991971717462
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.06709521415403769
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.03022965214454576
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.07658052905201194
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.07075356415478615
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.07287795707347643
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.07104496318345606
+  },
+  {
+   "cell": 25,
+   "index": 0,
+   "pixel_diff": 0.07276829077236409
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.0718846937176876
+  },
+  {
+   "cell": 29,
+   "index": 0,
+   "pixel_diff": 0.07025536581544728
+  },
+  {
+   "cell": 33,
+   "index": 0,
+   "pixel_diff": 0.07278401041467243
+  },
+  {
+   "cell": 35,
+   "index": 0,
+   "pixel_diff": 0.043015873015873014
+  },
+  {
+   "cell": 38,
+   "index": 0,
+   "pixel_diff": 0.04105469674931502
+  },
+  {
+   "cell": 39,
+   "index": 0,
+   "pixel_diff": 0.03818164855156972
+  },
+  {
+   "cell": 40,
+   "index": 0,
+   "pixel_diff": 0.042678149273893955
+  },
+  {
+   "cell": 42,
+   "index": 0,
+   "pixel_diff": 0.040202279876873116
+  },
+  {
+   "cell": 43,
+   "index": 0,
+   "pixel_diff": 0.044568580802662065
+  }
+ ]
+}

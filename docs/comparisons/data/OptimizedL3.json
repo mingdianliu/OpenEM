@@ -1,0 +1,99 @@
+{
+ "notebook": "OptimizedL3",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 6,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 5.735912338573176e-06,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.11358804968494104
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": 191774200000000.0,
+   "openem": 191775300000000.0,
+   "rel_diff": 5.735912338573176e-06,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": 679540500.0,
+   "openem": 679290800.0,
+   "rel_diff": 1.302052100856111e-07,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": 886593.697701,
+   "openem": 886925.032966,
+   "rel_diff": 1.7277363951981108e-10,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": 12320.95201,
+   "openem": 12321.670456,
+   "rel_diff": 3.7463120690841025e-13,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": -0.578757,
+   "openem": -0.581122,
+   "rel_diff": 1.2332211527932649e-15,
+   "near_zero": true
+  },
+  {
+   "cell": 10,
+   "label": "1.917742e+14  6.795405e+08  886593.697701  12320.95201 -0.578757  0.000014",
+   "reference": 1.4e-05,
+   "openem": 3.3e-05,
+   "rel_diff": 9.907484948444578e-18,
+   "near_zero": true
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.001293095854694079
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.011748663770199732
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.11358804968494104
+  }
+ ]
+}

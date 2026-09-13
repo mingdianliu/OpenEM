@@ -1,0 +1,40 @@
+{
+ "notebook": "GDSExport",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 14,
+  "openem": 14,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.04732617420544528
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.04558976872328882
+  },
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.04732617420544528
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.04613777435190069
+  }
+ ]
+}

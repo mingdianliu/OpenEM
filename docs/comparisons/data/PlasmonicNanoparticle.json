@@ -1,0 +1,55 @@
+{
+ "notebook": "PlasmonicNanoparticle",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 13,
+  "openem": 13,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.17653629895009204
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.17653629895009204
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.0032967032967032967
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.04030964109781844
+  },
+  {
+   "cell": 12,
+   "index": 1,
+   "pixel_diff": 0.014496833216045038
+  },
+  {
+   "cell": 12,
+   "index": 2,
+   "pixel_diff": 0.09973258268824771
+  }
+ ]
+}

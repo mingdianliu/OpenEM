@@ -1,0 +1,141 @@
+{
+ "notebook": "Autograd13Metasurface",
+ "category": "Inverse Design",
+ "verdict": "agree",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 25,
+  "openem": 25,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 10,
+  "n_numbers_compared": 10,
+  "max_rel_diff": 3.7409789210432303,
+  "n_over_5pct": 3,
+  "n_over_20pct": 3,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.2209779768570362
+ },
+ "numbers": [
+  {
+   "cell": 13,
+   "label": "Average intensity of '1.81' (a.u.) measured without any device.",
+   "reference": 1.81,
+   "openem": 1.81,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "initial loss value = 0.246",
+   "reference": 0.246,
+   "openem": 0.246,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "gradient shape = (240, 240)",
+   "reference": 240.0,
+   "openem": 240.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "gradient shape = (240, 240)",
+   "reference": 240.0,
+   "openem": 240.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "norm of gradient = 1.327e-03",
+   "reference": 0.001327,
+   "openem": 0.001327,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 19,
+   "label": "step = (1 / 35)",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 19,
+   "label": "step = (1 / 35)",
+   "reference": 35.0,
+   "openem": 35.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 19,
+   "label": "loss = 1.185e-01",
+   "reference": 0.1185,
+   "openem": 0.2462,
+   "rel_diff": 1.0776371308016879,
+   "near_zero": false
+  },
+  {
+   "cell": 19,
+   "label": "beta = 18.00",
+   "reference": 18.0,
+   "openem": 1.0,
+   "rel_diff": 0.9444444444444444,
+   "near_zero": false
+  },
+  {
+   "cell": 19,
+   "label": "|gradient| = 2.799e-04",
+   "reference": 0.0002799,
+   "openem": 0.001327,
+   "rel_diff": 3.7409789210432303,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.04663167789440702
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.03472609480072167
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.2209779768570362
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.04423076923076923
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.17268749056888485
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.11234062481116684
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.11212951403991392
+  }
+ ]
+}

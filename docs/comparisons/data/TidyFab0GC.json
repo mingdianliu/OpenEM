@@ -1,0 +1,1543 @@
+{
+ "notebook": "TidyFab0GC",
+ "category": "Tutorial",
+ "verdict": "trajectory divergence",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 33,
+  "openem": 33,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 184,
+  "n_numbers_compared": 157,
+  "max_rel_diff": 10.914257228315053,
+  "n_over_5pct": 73,
+  "n_over_20pct": 64,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 9,
+  "n_figures_openem": 9,
+  "max_pixel_diff": 0.1273445732349842
+ },
+ "numbers": [
+  {
+   "cell": 2,
+   "label": "WG_CLAD  (1, 0)  Waveguide clad                    #9da6a218     .",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 2,
+   "label": "WG_CLAD  (1, 0)  Waveguide clad                    #9da6a218     .",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 2,
+   "label": "WG_CORE  (2, 0)  Waveguide core                    #6db5dd18     /",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 2,
+   "label": "WG_CORE  (2, 0)  Waveguide core                    #6db5dd18     /",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 2,
+   "label": "SLAB     (3, 0)  Slab region                       #8851ad18     :",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 2,
+   "label": "SLAB     (3, 0)  Slab region                       #8851ad18     :",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 2,
+   "label": "METAL    (5, 0)  Metal layer                       #b8a18b18     \\",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 2,
+   "label": "METAL    (5, 0)  Metal layer                       #b8a18b18     \\",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "0  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "0  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "0  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "0  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "1  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "1  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": -2.0,
+   "openem": -2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "1  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 1.72,
+   "openem": 1.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "1  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "1  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 4.2,
+   "openem": 4.2,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "2  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "2  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "2  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.22,
+   "openem": 0.22,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "2  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "2  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "3  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "3  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "3  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.15,
+   "openem": 0.15,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "3  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "3  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "4  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "4  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 1.72,
+   "openem": 1.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "4  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 2.22,
+   "openem": 2.22,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "4  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 3,
+   "label": "5  'TRENCH'    -inf, inf        0       Medium()               Medium()",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 3,
+   "label": "5  'TRENCH'    -inf, inf        0       Medium()               Medium()",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "0  ()            0, inf         0       air                    air",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "0  ()            0, inf         0       air                    air",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "0  ()            0, inf         0       air                    air",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "1  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "1  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "1  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "1  ()           -inf, 0         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "2  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "2  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": -2.0,
+   "openem": -2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "2  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 1.72,
+   "openem": 1.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "2  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "2  ()           -2, 1.72        0       SiO2_Palik_LowLoss     Medium(permittivity=4.2)",
+   "reference": 4.2,
+   "openem": 4.2,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "3  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "3  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "3  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.22,
+   "openem": 0.22,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "3  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "3  'WG_CORE'    0, 0.22         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "4  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "4  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "4  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.15,
+   "openem": 0.15,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "4  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "4  'SLAB'       0, 0.15         0       cSi_Li1993_293K        Medium(permittivity=12.3)",
+   "reference": 12.3,
+   "openem": 12.3,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "5  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "5  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 1.72,
+   "openem": 1.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "5  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 2.22,
+   "openem": 2.22,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "5  'METAL'     1.72, 2.22       0       Cu_JohnsonChristy1972  PEC",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 4,
+   "label": "6  'TRENCH'    -inf, inf        0       Medium()               Medium()",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 4,
+   "label": "6  'TRENCH'    -inf, inf        0       Medium()               Medium()",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "(33.565, 0.0, 3.72)",
+   "reference": 33.565,
+   "openem": 33.565,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "(33.565, 0.0, 3.72)",
+   "reference": 0.0,
+   "openem": 0.0,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 14,
+   "label": "(33.565, 0.0, 3.72)",
+   "reference": 3.72,
+   "openem": 3.72,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 1",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.6606e-01",
+   "reference": 0.46606,
+   "openem": 0.45851,
+   "rel_diff": 0.016199630948804878,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 4.8987e+00",
+   "reference": 4.8987,
+   "openem": 7.1686,
+   "rel_diff": 0.463367832282034,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 2",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 3.1737e-01",
+   "reference": 0.31737,
+   "openem": 0.31019,
+   "rel_diff": 0.022623436367646483,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 7.3309e+00",
+   "reference": 7.3309,
+   "openem": 5.9856,
+   "rel_diff": 0.18351089225061043,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 3",
+   "reference": 3.0,
+   "openem": 3.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 3.9765e-01",
+   "reference": 0.39765,
+   "openem": 0.30027,
+   "rel_diff": 0.244888721237269,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 6.3420e+00",
+   "reference": 6.342,
+   "openem": 6.0438,
+   "rel_diff": 0.04701986754966881,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 4",
+   "reference": 4.0,
+   "openem": 4.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0306e-01",
+   "reference": 0.50306,
+   "openem": 0.40242,
+   "rel_diff": 0.20005565936468803,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 5.7566e-01",
+   "reference": 0.57566,
+   "openem": 4.0778,
+   "rel_diff": 6.083695236771706,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 5",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.2190e-01",
+   "reference": 0.4219,
+   "openem": 0.46403,
+   "rel_diff": 0.09985778620526191,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 6.5236e+00",
+   "reference": 6.5236,
+   "openem": 2.332,
+   "rel_diff": 0.6425286651542094,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 6",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.0963e-01",
+   "reference": 0.40963,
+   "openem": 0.41464,
+   "rel_diff": 0.012230549520298842,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 6.8633e+00",
+   "reference": 6.8633,
+   "openem": 5.8173,
+   "rel_diff": 0.15240481983885296,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 7",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.7728e-01",
+   "reference": 0.47728,
+   "openem": 0.40289,
+   "rel_diff": 0.15586238685886683,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 4.4487e+00",
+   "reference": 4.4487,
+   "openem": 5.4769,
+   "rel_diff": 0.23112369905815183,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 8",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0180e-01",
+   "reference": 0.5018,
+   "openem": 0.41197,
+   "rel_diff": 0.1790155440414508,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.7149e+00",
+   "reference": 1.7149,
+   "openem": 2.9707,
+   "rel_diff": 0.7322875969444281,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 9",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.5748e-01",
+   "reference": 0.45748,
+   "openem": 0.38534,
+   "rel_diff": 0.15768995365917632,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 5.0710e+00",
+   "reference": 5.071,
+   "openem": 0.98505,
+   "rel_diff": 0.8057483731019522,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 10",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.4851e-01",
+   "reference": 0.44851,
+   "openem": 0.3388,
+   "rel_diff": 0.24460993065929415,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 5.3682e+00",
+   "reference": 5.3682,
+   "openem": 2.3768,
+   "rel_diff": 0.5572445139897918,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 11",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.8078e-01",
+   "reference": 0.48078,
+   "openem": 0.30794,
+   "rel_diff": 0.3594991472191023,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.9810e+00",
+   "reference": 3.981,
+   "openem": 2.8974,
+   "rel_diff": 0.2721929163526751,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 12",
+   "reference": 12.0,
+   "openem": 12.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0654e-01",
+   "reference": 0.50654,
+   "openem": 0.30136,
+   "rel_diff": 0.40506179176373036,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.8822e-01",
+   "reference": 0.38822,
+   "openem": 2.7991,
+   "rel_diff": 6.210087064035856,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 13",
+   "reference": 13.0,
+   "openem": 13.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.8664e-01",
+   "reference": 0.48664,
+   "openem": 0.31152,
+   "rel_diff": 0.3598553345388788,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.5928e+00",
+   "reference": 3.5928,
+   "openem": 1.9741,
+   "rel_diff": 0.45053996882654196,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 14",
+   "reference": 14.0,
+   "openem": 14.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.7143e-01",
+   "reference": 0.47143,
+   "openem": 0.32249,
+   "rel_diff": 0.3159323759624971,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 4.5558e+00",
+   "reference": 4.5558,
+   "openem": 1.3382,
+   "rel_diff": 0.7062645419026296,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 15",
+   "reference": 15.0,
+   "openem": 15.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.8606e-01",
+   "reference": 0.48606,
+   "openem": 0.32254,
+   "rel_diff": 0.33641937209398015,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.8446e+00",
+   "reference": 3.8446,
+   "openem": 1.7432,
+   "rel_diff": 0.5465848202673881,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 16",
+   "reference": 16.0,
+   "openem": 16.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0806e-01",
+   "reference": 0.50806,
+   "openem": 0.31323,
+   "rel_diff": 0.3834783293311813,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.1430e+00",
+   "reference": 1.143,
+   "openem": 2.6477,
+   "rel_diff": 1.316447944006999,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 17",
+   "reference": 17.0,
+   "openem": 17.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0042e-01",
+   "reference": 0.50042,
+   "openem": 0.30882,
+   "rel_diff": 0.38287838215898645,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 2.4919e+00",
+   "reference": 2.4919,
+   "openem": 2.7655,
+   "rel_diff": 0.10979573819174128,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 18",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.8600e-01",
+   "reference": 0.486,
+   "openem": 0.30936,
+   "rel_diff": 0.3634567901234567,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.6897e+00",
+   "reference": 3.6897,
+   "openem": 2.1909,
+   "rel_diff": 0.4062118871452964,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 19",
+   "reference": 19.0,
+   "openem": 19.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.9044e-01",
+   "reference": 0.49044,
+   "openem": 0.30548,
+   "rel_diff": 0.3771307397439035,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.4153e+00",
+   "reference": 3.4153,
+   "openem": 1.7641,
+   "rel_diff": 0.48347143735542997,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 20",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0664e-01",
+   "reference": 0.50664,
+   "openem": 0.29736,
+   "rel_diff": 0.413074372335386,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.6898e+00",
+   "reference": 1.6898,
+   "openem": 1.6741,
+   "rel_diff": 0.009291040359805922,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 21",
+   "reference": 21.0,
+   "openem": 21.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0872e-01",
+   "reference": 0.50872,
+   "openem": 0.286,
+   "rel_diff": 0.4378046862714263,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.5054e+00",
+   "reference": 1.5054,
+   "openem": 1.9999,
+   "rel_diff": 0.32848412382091136,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 22",
+   "reference": 22.0,
+   "openem": 22.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.9747e-01",
+   "reference": 0.49747,
+   "openem": 0.27511,
+   "rel_diff": 0.4469817275413593,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.2276e+00",
+   "reference": 3.2276,
+   "openem": 2.1721,
+   "rel_diff": 0.32702317511463624,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 23",
+   "reference": 23.0,
+   "openem": 23.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 4.9829e-01",
+   "reference": 0.49829,
+   "openem": 0.27032,
+   "rel_diff": 0.4575046659575749,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 3.1501e+00",
+   "reference": 3.1501,
+   "openem": 2.0376,
+   "rel_diff": 0.35316339163836075,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 24",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0931e-01",
+   "reference": 0.50931,
+   "openem": 0.26979,
+   "rel_diff": 0.47028332449785015,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.4531e+00",
+   "reference": 1.4531,
+   "openem": 1.6791,
+   "rel_diff": 0.15552955749776337,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 25",
+   "reference": 25.0,
+   "openem": 25.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0980e-01",
+   "reference": 0.5098,
+   "openem": 0.26951,
+   "rel_diff": 0.47134170262848174,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.2709e+00",
+   "reference": 1.2709,
+   "openem": 1.1905,
+   "rel_diff": 0.06326225509481473,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 26",
+   "reference": 26.0,
+   "openem": 26.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0187e-01",
+   "reference": 0.50187,
+   "openem": 0.26487,
+   "rel_diff": 0.47223384541813623,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 2.6279e+00",
+   "reference": 2.6279,
+   "openem": 1.0449,
+   "rel_diff": 0.6023821302180449,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 27",
+   "reference": 27.0,
+   "openem": 27.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0249e-01",
+   "reference": 0.50249,
+   "openem": 0.2561,
+   "rel_diff": 0.49033811618141654,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 2.5851e+00",
+   "reference": 2.5851,
+   "openem": 1.4088,
+   "rel_diff": 0.45503075316235353,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 28",
+   "reference": 28.0,
+   "openem": 28.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1051e-01",
+   "reference": 0.51051,
+   "openem": 0.24891,
+   "rel_diff": 0.5124287477228655,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.2786e+00",
+   "reference": 1.2786,
+   "openem": 1.6643,
+   "rel_diff": 0.30165806350696067,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 29",
+   "reference": 29.0,
+   "openem": 29.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1203e-01",
+   "reference": 0.51203,
+   "openem": 0.24611,
+   "rel_diff": 0.5193445696541218,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.0164e+00",
+   "reference": 1.0164,
+   "openem": 1.7184,
+   "rel_diff": 0.6906729634002361,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 30",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0694e-01",
+   "reference": 0.50694,
+   "openem": 0.24632,
+   "rel_diff": 0.5141042332425928,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 2.3533e+00",
+   "reference": 2.3533,
+   "openem": 1.5704,
+   "rel_diff": 0.3326817660306803,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 31",
+   "reference": 31.0,
+   "openem": 31.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0837e-01",
+   "reference": 0.50837,
+   "openem": 0.24639,
+   "rel_diff": 0.5153333202195252,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 2.1838e+00",
+   "reference": 2.1838,
+   "openem": 1.5161,
+   "rel_diff": 0.3057514424397839,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 32",
+   "reference": 32.0,
+   "openem": 32.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1358e-01",
+   "reference": 0.51358,
+   "openem": 0.24686,
+   "rel_diff": 0.5193348650648391,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 6.5205e-01",
+   "reference": 0.65205,
+   "openem": 1.5609,
+   "rel_diff": 1.3938348286174371,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 33",
+   "reference": 33.0,
+   "openem": 33.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1200e-01",
+   "reference": 0.512,
+   "openem": 0.24828,
+   "rel_diff": 0.515078125,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.1880e+00",
+   "reference": 1.188,
+   "openem": 1.7251,
+   "rel_diff": 0.45210437710437723,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 34",
+   "reference": 34.0,
+   "openem": 34.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.0885e-01",
+   "reference": 0.50885,
+   "openem": 0.25095,
+   "rel_diff": 0.5068291244964135,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.9216e+00",
+   "reference": 1.9216,
+   "openem": 1.8424,
+   "rel_diff": 0.04121565362198165,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 35",
+   "reference": 35.0,
+   "openem": 35.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1137e-01",
+   "reference": 0.51137,
+   "openem": 0.25575,
+   "rel_diff": 0.4998728904706964,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.5056e+00",
+   "reference": 1.5056,
+   "openem": 1.9026,
+   "rel_diff": 0.263682252922423,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 36",
+   "reference": 36.0,
+   "openem": 36.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1490e-01",
+   "reference": 0.5149,
+   "openem": 0.26327,
+   "rel_diff": 0.4886968343367644,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.6048e-01",
+   "reference": 0.16048,
+   "openem": 1.912,
+   "rel_diff": 10.914257228315053,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 37",
+   "reference": 37.0,
+   "openem": 37.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1329e-01",
+   "reference": 0.51329,
+   "openem": 0.2726,
+   "rel_diff": 0.46891620721229715,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.3641e+00",
+   "reference": 1.3641,
+   "openem": 1.8327,
+   "rel_diff": 0.34352320211128207,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 38",
+   "reference": 38.0,
+   "openem": 38.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1245e-01",
+   "reference": 0.51245,
+   "openem": 0.28168,
+   "rel_diff": 0.45032686115718606,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 1.6722e+00",
+   "reference": 1.6722,
+   "openem": 1.6323,
+   "rel_diff": 0.023860782203085653,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 39",
+   "reference": 39.0,
+   "openem": 39.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1499e-01",
+   "reference": 0.51499,
+   "openem": 0.28667,
+   "rel_diff": 0.443348414532321,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 7.8625e-01",
+   "reference": 0.78625,
+   "openem": 1.3368,
+   "rel_diff": 0.7002225755166931,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "step = 40",
+   "reference": 40.0,
+   "openem": 40.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "J = 5.1518e-01",
+   "reference": 0.51518,
+   "openem": 0.28426,
+   "rel_diff": 0.44823168601265573,
+   "near_zero": false
+  },
+  {
+   "cell": 29,
+   "label": "grad_norm = 6.6040e-01",
+   "reference": 0.6604,
+   "openem": 1.1601,
+   "rel_diff": 0.7566626287098727,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.07577895355673134
+  },
+  {
+   "cell": 12,
+   "index": 1,
+   "pixel_diff": 0.08838940981798124
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.0707010582010582
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.09584378215020577
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.0830877616747182
+  },
+  {
+   "cell": 30,
+   "index": 0,
+   "pixel_diff": 0.1273445732349842
+  },
+  {
+   "cell": 30,
+   "index": 1,
+   "pixel_diff": 0.11588026984786437
+  },
+  {
+   "cell": 30,
+   "index": 2,
+   "pixel_diff": 0.10182206659148911
+  },
+  {
+   "cell": 32,
+   "index": 0,
+   "pixel_diff": 0.0940827291135933
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "notebook": "WebAPI",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 8,
+  "openem": 8,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 0,
+  "n_figures_openem": 0,
+  "max_pixel_diff": null
+ },
+ "numbers": [],
+ "figures": []
+}

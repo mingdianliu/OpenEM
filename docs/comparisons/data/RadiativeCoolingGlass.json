@@ -1,0 +1,77 @@
+{
+ "notebook": "RadiativeCoolingGlass",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 13,
+  "openem": 13,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 2,
+  "n_numbers_compared": 2,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.1236671174266776
+ },
+ "numbers": [
+  {
+   "cell": 1,
+   "label": "num_Al2O3: 122230",
+   "reference": 122230.0,
+   "openem": 122230.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 1,
+   "label": "num_SiO2: 44",
+   "reference": 44.0,
+   "openem": 44.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 2,
+   "index": 0,
+   "pixel_diff": 0.06358662613981762
+  },
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.07601669146884248
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.028763931104356637
+  },
+  {
+   "cell": 8,
+   "index": 1,
+   "pixel_diff": 0.028081729145558933
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.1236671174266776
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.019483609225914703
+  },
+  {
+   "cell": 12,
+   "index": 1,
+   "pixel_diff": 0.06883171509691892
+  }
+ ]
+}

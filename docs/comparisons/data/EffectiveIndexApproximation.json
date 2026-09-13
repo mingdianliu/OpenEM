@@ -1,0 +1,172 @@
+{
+ "notebook": "EffectiveIndexApproximation",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 23,
+  "openem": 23,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 12,
+  "n_numbers_compared": 12,
+  "max_rel_diff": 0.03320000000000008,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 10,
+  "n_figures_openem": 10,
+  "max_pixel_diff": 0.08343120724073105
+ },
+ "numbers": [
+  {
+   "cell": 17,
+   "label": "Mean FSR (nm): 21.083",
+   "reference": 21.083,
+   "openem": 21.0,
+   "rel_diff": 0.003936821135511949,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Resonance dip wavelengths (µm): [1.581   1.562   1.543   1.52467 1.50667]",
+   "reference": 1.581,
+   "openem": 1.581,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Resonance dip wavelengths (µm): [1.581   1.562   1.543   1.52467 1.50667]",
+   "reference": 1.562,
+   "openem": 1.562,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Resonance dip wavelengths (µm): [1.581   1.562   1.543   1.52467 1.50667]",
+   "reference": 1.543,
+   "openem": 1.543,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Resonance dip wavelengths (µm): [1.581   1.562   1.543   1.52467 1.50667]",
+   "reference": 1.52467,
+   "openem": 1.52467,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Resonance dip wavelengths (µm): [1.581   1.562   1.543   1.52467 1.50667]",
+   "reference": 1.50667,
+   "openem": 1.50667,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "FSR values (nm): [19.    19.    18.333 18.   ]",
+   "reference": 19.0,
+   "openem": 19.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "FSR values (nm): [19.    19.    18.333 18.   ]",
+   "reference": 19.0,
+   "openem": 19.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "FSR values (nm): [19.    19.    18.333 18.   ]",
+   "reference": 18.333,
+   "openem": 18.333,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "FSR values (nm): [19.    19.    18.333 18.   ]",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Mean FSR (nm): 18.583",
+   "reference": 18.583,
+   "openem": 18.583,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 17,
+   "label": "Mean FSR difference: 2.500 nm",
+   "reference": 2.5,
+   "openem": 2.417,
+   "rel_diff": 0.03320000000000008,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.043877209819393
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.06180889423076923
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.07465894549634546
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.052024862538847715
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.08180693069306931
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.054759684665592945
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.08343120724073105
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.07979185314825453
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.05498301069235325
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.05263197298774416
+  }
+ ]
+}

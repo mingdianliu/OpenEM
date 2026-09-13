@@ -1,0 +1,60 @@
+{
+ "notebook": "PolarizationSplitterRotator",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 15,
+  "openem": 15,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.07489028213166145
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.03127670292356201
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.06471450509563033
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.07489028213166145
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.03992735763393436
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.04663750232145437
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.044489742972036395
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.04803243845566538
+  }
+ ]
+}

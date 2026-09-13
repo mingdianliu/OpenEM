@@ -1,0 +1,123 @@
+{
+ "notebook": "BroadbandDirectionalCoupler",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 25,
+  "openem": 25,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 4,
+  "n_numbers_compared": 4,
+  "max_rel_diff": 1.916684025430525e-11,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 13,
+  "n_figures_openem": 13,
+  "max_pixel_diff": 0.11671787085473431
+ },
+ "numbers": [
+  {
+   "cell": 5,
+   "label": "Effective indices: 2.459162628532339, 2.43821523251537",
+   "reference": 2.459162628532339,
+   "openem": 2.459162628530616,
+   "rel_diff": 7.006718930364486e-13,
+   "near_zero": false
+  },
+  {
+   "cell": 5,
+   "label": "Effective indices: 2.459162628532339, 2.43821523251537",
+   "reference": 2.43821523251537,
+   "openem": 2.4382152325147537,
+   "rel_diff": 2.528061571643886e-13,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Effective indices: 2.5682454486522666, 2.2176841960818794",
+   "reference": 2.5682454486522666,
+   "openem": 2.568245448652033,
+   "rel_diff": 9.095350465965549e-14,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "Effective indices: 2.5682454486522666, 2.2176841960818794",
+   "reference": 2.2176841960818794,
+   "openem": 2.2176841960393734,
+   "rel_diff": 1.916684025430525e-11,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.03040091132914416
+  },
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.04695237354489124
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.03123447456528783
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.05180637396970792
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.047435759510062916
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.03461217681401168
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.04727344992050874
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.029062354459179856
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.11671787085473431
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.041681918365121765
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.03473488686254644
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.039298759355456736
+  },
+  {
+   "cell": 24,
+   "index": 0,
+   "pixel_diff": 0.06393207855973813
+  }
+ ]
+}

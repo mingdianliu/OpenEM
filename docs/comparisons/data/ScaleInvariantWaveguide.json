@@ -1,0 +1,60 @@
+{
+ "notebook": "ScaleInvariantWaveguide",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 13,
+  "openem": 13,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.23510223953261927
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.04393067343023445
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.23510223953261927
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0358535732537185
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.09439483359610808
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.2063680623174294
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.05267566560231775
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.09416113413361685
+  }
+ ]
+}

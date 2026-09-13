@@ -1,0 +1,82 @@
+{
+ "notebook": "AnisotropicMetamaterialBroadbandPBS",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 20,
+  "openem": 20,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 2,
+  "n_numbers_compared": 2,
+  "max_rel_diff": 0.0006789893946636986,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 8,
+  "n_figures_openem": 8,
+  "max_pixel_diff": 0.11214132851295477
+ },
+ "numbers": [
+  {
+   "cell": 7,
+   "label": "The coupling length for the TM mode is 6.95 μm.",
+   "reference": 6.95,
+   "openem": 6.95,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "The coupling length for the TE mode is 11296.20 μm.",
+   "reference": 11296.2,
+   "openem": 11303.87,
+   "rel_diff": 0.0006789893946636986,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.042916781356087716
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.08467663812143993
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.073264336161329
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.10930520060670282
+  },
+  {
+   "cell": 15,
+   "index": 1,
+   "pixel_diff": 0.11214132851295477
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.06642217509131614
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.0876501667699755
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.08222434758846837
+  }
+ ]
+}

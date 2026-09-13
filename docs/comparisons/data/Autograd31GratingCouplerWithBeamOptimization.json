@@ -1,0 +1,1477 @@
+{
+ "notebook": "Autograd31GratingCouplerWithBeamOptimization",
+ "category": "Inverse Design",
+ "verdict": "trajectory divergence",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 15,
+  "openem": 15,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 177,
+  "n_numbers_compared": 126,
+  "max_rel_diff": 1.3806366047745358,
+  "n_over_5pct": 23,
+  "n_over_20pct": 17,
+  "n_near_zero_over_5pct": 7,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.08918673119178964
+ },
+ "numbers": [
+  {
+   "cell": 6,
+   "label": "Initial x_center = 6.000 um",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Initial tilt = 8.000 deg",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 6,
+   "label": "Initial waist = 2.250 um",
+   "reference": 2.25,
+   "openem": 2.25,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "epochs = 90, learning_rate = 0.0030",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "epochs = 90, learning_rate = 0.0030",
+   "reference": 0.003,
+   "openem": 0.003,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 01/90 | objective = 0.084270 | grad norm = 1.229e+00",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 01/90 | objective = 0.084270 | grad norm = 1.229e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 01/90 | objective = 0.084270 | grad norm = 1.229e+00",
+   "reference": 0.08427,
+   "openem": 0.08384,
+   "rel_diff": 0.0004777777777777776,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 01/90 | objective = 0.084270 | grad norm = 1.229e+00",
+   "reference": 1.229,
+   "openem": 1.231,
+   "rel_diff": 0.0016273393002441021,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 05/90 | objective = 0.140750 | grad norm = 6.235e-01",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 05/90 | objective = 0.140750 | grad norm = 6.235e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 05/90 | objective = 0.140750 | grad norm = 6.235e-01",
+   "reference": 0.14075,
+   "openem": 0.13932,
+   "rel_diff": 0.0015888888888888743,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 05/90 | objective = 0.140750 | grad norm = 6.235e-01",
+   "reference": 0.6235,
+   "openem": 0.6533,
+   "rel_diff": 0.03311111111111104,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 10/90 | objective = 0.145501 | grad norm = 1.005e+00",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 10/90 | objective = 0.145501 | grad norm = 1.005e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 10/90 | objective = 0.145501 | grad norm = 1.005e+00",
+   "reference": 0.145501,
+   "openem": 0.143031,
+   "rel_diff": 0.0027444444444444443,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 10/90 | objective = 0.145501 | grad norm = 1.005e+00",
+   "reference": 1.005,
+   "openem": 1.131,
+   "rel_diff": 0.12537313432835834,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 15/90 | objective = 0.165367 | grad norm = 8.510e-01",
+   "reference": 15.0,
+   "openem": 15.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 15/90 | objective = 0.165367 | grad norm = 8.510e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 15/90 | objective = 0.165367 | grad norm = 8.510e-01",
+   "reference": 0.165367,
+   "openem": 0.163848,
+   "rel_diff": 0.0016877777777777694,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 15/90 | objective = 0.165367 | grad norm = 8.510e-01",
+   "reference": 0.851,
+   "openem": 0.8593,
+   "rel_diff": 0.009222222222222192,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 20/90 | objective = 0.176042 | grad norm = 1.053e+00",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 20/90 | objective = 0.176042 | grad norm = 1.053e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 20/90 | objective = 0.176042 | grad norm = 1.053e+00",
+   "reference": 0.176042,
+   "openem": 0.177889,
+   "rel_diff": 0.0020522222222222083,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 20/90 | objective = 0.176042 | grad norm = 1.053e+00",
+   "reference": 1.053,
+   "openem": 0.8555,
+   "rel_diff": 0.1875593542260208,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 25/90 | objective = 0.199274 | grad norm = 6.669e-01",
+   "reference": 25.0,
+   "openem": 25.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 25/90 | objective = 0.199274 | grad norm = 6.669e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 25/90 | objective = 0.199274 | grad norm = 6.669e-01",
+   "reference": 0.199274,
+   "openem": 0.199794,
+   "rel_diff": 0.0005777777777777696,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 25/90 | objective = 0.199274 | grad norm = 6.669e-01",
+   "reference": 0.6669,
+   "openem": 0.7418,
+   "rel_diff": 0.08322222222222218,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 30/90 | objective = 0.214997 | grad norm = 7.155e-01",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 30/90 | objective = 0.214997 | grad norm = 7.155e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 30/90 | objective = 0.214997 | grad norm = 7.155e-01",
+   "reference": 0.214997,
+   "openem": 0.216544,
+   "rel_diff": 0.001718888888888881,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 30/90 | objective = 0.214997 | grad norm = 7.155e-01",
+   "reference": 0.7155,
+   "openem": 0.8516,
+   "rel_diff": 0.15122222222222223,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 35/90 | objective = 0.234634 | grad norm = 8.797e-01",
+   "reference": 35.0,
+   "openem": 35.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 35/90 | objective = 0.234634 | grad norm = 8.797e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 35/90 | objective = 0.234634 | grad norm = 8.797e-01",
+   "reference": 0.234634,
+   "openem": 0.23384,
+   "rel_diff": 0.000882222222222241,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 35/90 | objective = 0.234634 | grad norm = 8.797e-01",
+   "reference": 0.8797,
+   "openem": 1.016,
+   "rel_diff": 0.1514444444444444,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 40/90 | objective = 0.253888 | grad norm = 7.545e-01",
+   "reference": 40.0,
+   "openem": 40.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 40/90 | objective = 0.253888 | grad norm = 7.545e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 40/90 | objective = 0.253888 | grad norm = 7.545e-01",
+   "reference": 0.253888,
+   "openem": 0.25159,
+   "rel_diff": 0.002553333333333358,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 40/90 | objective = 0.253888 | grad norm = 7.545e-01",
+   "reference": 0.7545,
+   "openem": 0.7849,
+   "rel_diff": 0.03377777777777788,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 45/90 | objective = 0.274034 | grad norm = 9.434e-01",
+   "reference": 45.0,
+   "openem": 45.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 45/90 | objective = 0.274034 | grad norm = 9.434e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 45/90 | objective = 0.274034 | grad norm = 9.434e-01",
+   "reference": 0.274034,
+   "openem": 0.269204,
+   "rel_diff": 0.005366666666666668,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 45/90 | objective = 0.274034 | grad norm = 9.434e-01",
+   "reference": 0.9434,
+   "openem": 1.005,
+   "rel_diff": 0.0652957388170446,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 50/90 | objective = 0.288923 | grad norm = 1.119e+00",
+   "reference": 50.0,
+   "openem": 50.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 50/90 | objective = 0.288923 | grad norm = 1.119e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 50/90 | objective = 0.288923 | grad norm = 1.119e+00",
+   "reference": 0.288923,
+   "openem": 0.286909,
+   "rel_diff": 0.0022377777777777335,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 50/90 | objective = 0.288923 | grad norm = 1.119e+00",
+   "reference": 1.119,
+   "openem": 0.7145,
+   "rel_diff": 0.3614834673815907,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 55/90 | objective = 0.307696 | grad norm = 8.266e-01",
+   "reference": 55.0,
+   "openem": 55.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 55/90 | objective = 0.307696 | grad norm = 8.266e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 55/90 | objective = 0.307696 | grad norm = 8.266e-01",
+   "reference": 0.307696,
+   "openem": 0.304882,
+   "rel_diff": 0.0031266666666667094,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 55/90 | objective = 0.307696 | grad norm = 8.266e-01",
+   "reference": 0.8266,
+   "openem": 0.7304,
+   "rel_diff": 0.10688888888888884,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 60/90 | objective = 0.317485 | grad norm = 1.209e+00",
+   "reference": 60.0,
+   "openem": 60.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 60/90 | objective = 0.317485 | grad norm = 1.209e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 60/90 | objective = 0.317485 | grad norm = 1.209e+00",
+   "reference": 0.317485,
+   "openem": 0.316668,
+   "rel_diff": 0.0009077777777777913,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 60/90 | objective = 0.317485 | grad norm = 1.209e+00",
+   "reference": 1.209,
+   "openem": 0.843,
+   "rel_diff": 0.30272952853598023,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 65/90 | objective = 0.329971 | grad norm = 4.592e-01",
+   "reference": 65.0,
+   "openem": 65.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 65/90 | objective = 0.329971 | grad norm = 4.592e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 65/90 | objective = 0.329971 | grad norm = 4.592e-01",
+   "reference": 0.329971,
+   "openem": 0.328109,
+   "rel_diff": 0.0020688888888889226,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 65/90 | objective = 0.329971 | grad norm = 4.592e-01",
+   "reference": 0.4592,
+   "openem": 0.7169,
+   "rel_diff": 0.28633333333333333,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 70/90 | objective = 0.334242 | grad norm = 9.036e-01",
+   "reference": 70.0,
+   "openem": 70.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 70/90 | objective = 0.334242 | grad norm = 9.036e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 70/90 | objective = 0.334242 | grad norm = 9.036e-01",
+   "reference": 0.334242,
+   "openem": 0.335319,
+   "rel_diff": 0.0011966666666666608,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 70/90 | objective = 0.334242 | grad norm = 9.036e-01",
+   "reference": 0.9036,
+   "openem": 1.196,
+   "rel_diff": 0.3235945108455069,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 75/90 | objective = 0.342667 | grad norm = 7.190e-01",
+   "reference": 75.0,
+   "openem": 75.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 75/90 | objective = 0.342667 | grad norm = 7.190e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 75/90 | objective = 0.342667 | grad norm = 7.190e-01",
+   "reference": 0.342667,
+   "openem": 0.342074,
+   "rel_diff": 0.0006588888888889001,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 75/90 | objective = 0.342667 | grad norm = 7.190e-01",
+   "reference": 0.719,
+   "openem": 0.4481,
+   "rel_diff": 0.301,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 80/90 | objective = 0.344083 | grad norm = 9.081e-01",
+   "reference": 80.0,
+   "openem": 80.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 80/90 | objective = 0.344083 | grad norm = 9.081e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 80/90 | objective = 0.344083 | grad norm = 9.081e-01",
+   "reference": 0.344083,
+   "openem": 0.348814,
+   "rel_diff": 0.00525666666666665,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 80/90 | objective = 0.344083 | grad norm = 9.081e-01",
+   "reference": 0.9081,
+   "openem": 0.3889,
+   "rel_diff": 0.571743200088096,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 85/90 | objective = 0.352045 | grad norm = 4.737e-01",
+   "reference": 85.0,
+   "openem": 85.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 85/90 | objective = 0.352045 | grad norm = 4.737e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 85/90 | objective = 0.352045 | grad norm = 4.737e-01",
+   "reference": 0.352045,
+   "openem": 0.351247,
+   "rel_diff": 0.0008866666666666899,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 85/90 | objective = 0.352045 | grad norm = 4.737e-01",
+   "reference": 0.4737,
+   "openem": 0.4611,
+   "rel_diff": 0.014,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 90/90 | objective = 0.354362 | grad norm = 4.982e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 90/90 | objective = 0.354362 | grad norm = 4.982e-01",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 7,
+   "label": "step 90/90 | objective = 0.354362 | grad norm = 4.982e-01",
+   "reference": 0.354362,
+   "openem": 0.35344,
+   "rel_diff": 0.001024444444444482,
+   "near_zero": true
+  },
+  {
+   "cell": 7,
+   "label": "step 90/90 | objective = 0.354362 | grad norm = 4.982e-01",
+   "reference": 0.4982,
+   "openem": 0.4014,
+   "rel_diff": 0.10755555555555554,
+   "near_zero": true
+  },
+  {
+   "cell": 8,
+   "label": "Single-layer nominal CE = 0.352976",
+   "reference": 0.352976,
+   "openem": 0.353895,
+   "rel_diff": 0.0026035764471238924,
+   "near_zero": false
+  },
+  {
+   "cell": 8,
+   "label": "Single-layer x_center = 3.569 um",
+   "reference": 3.569,
+   "openem": 3.573,
+   "rel_diff": 0.0011207621182404044,
+   "near_zero": false
+  },
+  {
+   "cell": 8,
+   "label": "Single-layer tilt = 9.690 deg",
+   "reference": 9.69,
+   "openem": 9.846,
+   "rel_diff": 0.016099071207430402,
+   "near_zero": false
+  },
+  {
+   "cell": 8,
+   "label": "Single-layer waist = 2.379 um",
+   "reference": 2.379,
+   "openem": 2.378,
+   "rel_diff": 0.0004203446826397183,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "epochs = 90, learning_rate = 0.0030",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "epochs = 90, learning_rate = 0.0030",
+   "reference": 0.003,
+   "openem": 0.003,
+   "rel_diff": 0.0,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 01/90 | objective = 0.198748 | grad norm = 2.288e+00",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 01/90 | objective = 0.198748 | grad norm = 2.288e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 01/90 | objective = 0.198748 | grad norm = 2.288e+00",
+   "reference": 0.198748,
+   "openem": 0.197795,
+   "rel_diff": 0.0010588888888888994,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 01/90 | objective = 0.198748 | grad norm = 2.288e+00",
+   "reference": 2.288,
+   "openem": 2.274,
+   "rel_diff": 0.006118881118881028,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 05/90 | objective = 0.280728 | grad norm = 1.845e+00",
+   "reference": 5.0,
+   "openem": 5.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 05/90 | objective = 0.280728 | grad norm = 1.845e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 05/90 | objective = 0.280728 | grad norm = 1.845e+00",
+   "reference": 0.280728,
+   "openem": 0.279992,
+   "rel_diff": 0.0008177777777777321,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 05/90 | objective = 0.280728 | grad norm = 1.845e+00",
+   "reference": 1.845,
+   "openem": 1.761,
+   "rel_diff": 0.045528455284552884,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 10/90 | objective = 0.308899 | grad norm = 1.517e+00",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 10/90 | objective = 0.308899 | grad norm = 1.517e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 10/90 | objective = 0.308899 | grad norm = 1.517e+00",
+   "reference": 0.308899,
+   "openem": 0.306541,
+   "rel_diff": 0.002619999999999968,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 10/90 | objective = 0.308899 | grad norm = 1.517e+00",
+   "reference": 1.517,
+   "openem": 1.928,
+   "rel_diff": 0.2709294660514173,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 15/90 | objective = 0.345474 | grad norm = 2.142e+00",
+   "reference": 15.0,
+   "openem": 15.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 15/90 | objective = 0.345474 | grad norm = 2.142e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 15/90 | objective = 0.345474 | grad norm = 2.142e+00",
+   "reference": 0.345474,
+   "openem": 0.34023,
+   "rel_diff": 0.005826666666666696,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 15/90 | objective = 0.345474 | grad norm = 2.142e+00",
+   "reference": 2.142,
+   "openem": 2.602,
+   "rel_diff": 0.21475256769374415,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 20/90 | objective = 0.377360 | grad norm = 2.077e+00",
+   "reference": 20.0,
+   "openem": 20.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 20/90 | objective = 0.377360 | grad norm = 2.077e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 20/90 | objective = 0.377360 | grad norm = 2.077e+00",
+   "reference": 0.37736,
+   "openem": 0.377611,
+   "rel_diff": 0.00027888888888889026,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 20/90 | objective = 0.377360 | grad norm = 2.077e+00",
+   "reference": 2.077,
+   "openem": 1.691,
+   "rel_diff": 0.18584496870486275,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 25/90 | objective = 0.418240 | grad norm = 1.794e+00",
+   "reference": 25.0,
+   "openem": 25.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 25/90 | objective = 0.418240 | grad norm = 1.794e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 25/90 | objective = 0.418240 | grad norm = 1.794e+00",
+   "reference": 0.41824,
+   "openem": 0.417448,
+   "rel_diff": 0.0008800000000000165,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 25/90 | objective = 0.418240 | grad norm = 1.794e+00",
+   "reference": 1.794,
+   "openem": 2.016,
+   "rel_diff": 0.1237458193979933,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 30/90 | objective = 0.451548 | grad norm = 1.873e+00",
+   "reference": 30.0,
+   "openem": 30.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 30/90 | objective = 0.451548 | grad norm = 1.873e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 30/90 | objective = 0.451548 | grad norm = 1.873e+00",
+   "reference": 0.451548,
+   "openem": 0.44732,
+   "rel_diff": 0.0046977777777777886,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 30/90 | objective = 0.451548 | grad norm = 1.873e+00",
+   "reference": 1.873,
+   "openem": 1.949,
+   "rel_diff": 0.040576615056059834,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 35/90 | objective = 0.475962 | grad norm = 4.308e+00",
+   "reference": 35.0,
+   "openem": 35.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 35/90 | objective = 0.475962 | grad norm = 4.308e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 35/90 | objective = 0.475962 | grad norm = 4.308e+00",
+   "reference": 0.475962,
+   "openem": 0.488038,
+   "rel_diff": 0.013417777777777811,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 35/90 | objective = 0.475962 | grad norm = 4.308e+00",
+   "reference": 4.308,
+   "openem": 2.272,
+   "rel_diff": 0.47260909935004647,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 40/90 | objective = 0.517014 | grad norm = 2.262e+00",
+   "reference": 40.0,
+   "openem": 40.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 40/90 | objective = 0.517014 | grad norm = 2.262e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 40/90 | objective = 0.517014 | grad norm = 2.262e+00",
+   "reference": 0.517014,
+   "openem": 0.498757,
+   "rel_diff": 0.02028555555555552,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 40/90 | objective = 0.517014 | grad norm = 2.262e+00",
+   "reference": 2.262,
+   "openem": 5.385,
+   "rel_diff": 1.3806366047745358,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 45/90 | objective = 0.549722 | grad norm = 2.061e+00",
+   "reference": 45.0,
+   "openem": 45.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 45/90 | objective = 0.549722 | grad norm = 2.061e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 45/90 | objective = 0.549722 | grad norm = 2.061e+00",
+   "reference": 0.549722,
+   "openem": 0.547652,
+   "rel_diff": 0.002300000000000018,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 45/90 | objective = 0.549722 | grad norm = 2.061e+00",
+   "reference": 2.061,
+   "openem": 2.737,
+   "rel_diff": 0.32799611838913156,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 50/90 | objective = 0.582705 | grad norm = 1.334e+00",
+   "reference": 50.0,
+   "openem": 50.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 50/90 | objective = 0.582705 | grad norm = 1.334e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 50/90 | objective = 0.582705 | grad norm = 1.334e+00",
+   "reference": 0.582705,
+   "openem": 0.577976,
+   "rel_diff": 0.005254444444444425,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 50/90 | objective = 0.582705 | grad norm = 1.334e+00",
+   "reference": 1.334,
+   "openem": 2.863,
+   "rel_diff": 1.1461769115442277,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 55/90 | objective = 0.609034 | grad norm = 1.604e+00",
+   "reference": 55.0,
+   "openem": 55.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 55/90 | objective = 0.609034 | grad norm = 1.604e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 55/90 | objective = 0.609034 | grad norm = 1.604e+00",
+   "reference": 0.609034,
+   "openem": 0.60511,
+   "rel_diff": 0.0043599999999999195,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 55/90 | objective = 0.609034 | grad norm = 1.604e+00",
+   "reference": 1.604,
+   "openem": 1.277,
+   "rel_diff": 0.2038653366583542,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 60/90 | objective = 0.624934 | grad norm = 1.807e+00",
+   "reference": 60.0,
+   "openem": 60.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 60/90 | objective = 0.624934 | grad norm = 1.807e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 60/90 | objective = 0.624934 | grad norm = 1.807e+00",
+   "reference": 0.624934,
+   "openem": 0.622926,
+   "rel_diff": 0.002231111111111122,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 60/90 | objective = 0.624934 | grad norm = 1.807e+00",
+   "reference": 1.807,
+   "openem": 1.081,
+   "rel_diff": 0.40177089097952406,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 65/90 | objective = 0.630303 | grad norm = 3.563e+00",
+   "reference": 65.0,
+   "openem": 65.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 65/90 | objective = 0.630303 | grad norm = 3.563e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 65/90 | objective = 0.630303 | grad norm = 3.563e+00",
+   "reference": 0.630303,
+   "openem": 0.641619,
+   "rel_diff": 0.012573333333333448,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 65/90 | objective = 0.630303 | grad norm = 3.563e+00",
+   "reference": 3.563,
+   "openem": 1.119,
+   "rel_diff": 0.6859388156048274,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 70/90 | objective = 0.660135 | grad norm = 1.067e+00",
+   "reference": 70.0,
+   "openem": 70.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 70/90 | objective = 0.660135 | grad norm = 1.067e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 70/90 | objective = 0.660135 | grad norm = 1.067e+00",
+   "reference": 0.660135,
+   "openem": 0.648094,
+   "rel_diff": 0.013378888888888977,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 70/90 | objective = 0.660135 | grad norm = 1.067e+00",
+   "reference": 1.067,
+   "openem": 2.126,
+   "rel_diff": 0.9925023430178069,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 75/90 | objective = 0.668581 | grad norm = 1.005e+00",
+   "reference": 75.0,
+   "openem": 75.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 75/90 | objective = 0.668581 | grad norm = 1.005e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 75/90 | objective = 0.668581 | grad norm = 1.005e+00",
+   "reference": 0.668581,
+   "openem": 0.665753,
+   "rel_diff": 0.0031422222222221574,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 75/90 | objective = 0.668581 | grad norm = 1.005e+00",
+   "reference": 1.005,
+   "openem": 0.6975,
+   "rel_diff": 0.3059701492537313,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 80/90 | objective = 0.671168 | grad norm = 2.370e+00",
+   "reference": 80.0,
+   "openem": 80.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 80/90 | objective = 0.671168 | grad norm = 2.370e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 80/90 | objective = 0.671168 | grad norm = 2.370e+00",
+   "reference": 0.671168,
+   "openem": 0.673279,
+   "rel_diff": 0.0023455555555555265,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 80/90 | objective = 0.671168 | grad norm = 2.370e+00",
+   "reference": 2.37,
+   "openem": 1.309,
+   "rel_diff": 0.44767932489451484,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 85/90 | objective = 0.680527 | grad norm = 1.543e+00",
+   "reference": 85.0,
+   "openem": 85.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 85/90 | objective = 0.680527 | grad norm = 1.543e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 85/90 | objective = 0.680527 | grad norm = 1.543e+00",
+   "reference": 0.680527,
+   "openem": 0.6765,
+   "rel_diff": 0.0044744444444444476,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 85/90 | objective = 0.680527 | grad norm = 1.543e+00",
+   "reference": 1.543,
+   "openem": 0.5397,
+   "rel_diff": 0.6502268308489954,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 90/90 | objective = 0.685291 | grad norm = 1.049e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 90/90 | objective = 0.685291 | grad norm = 1.049e+00",
+   "reference": 90.0,
+   "openem": 90.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 9,
+   "label": "step 90/90 | objective = 0.685291 | grad norm = 1.049e+00",
+   "reference": 0.685291,
+   "openem": 0.681204,
+   "rel_diff": 0.0045411111111110574,
+   "near_zero": true
+  },
+  {
+   "cell": 9,
+   "label": "step 90/90 | objective = 0.685291 | grad norm = 1.049e+00",
+   "reference": 1.049,
+   "openem": 0.8816,
+   "rel_diff": 0.15958055290753087,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector nominal CE = 0.685303",
+   "reference": 0.685303,
+   "openem": 0.682811,
+   "rel_diff": 0.003636347717724933,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector x_center = 3.762 um",
+   "reference": 3.762,
+   "openem": 3.779,
+   "rel_diff": 0.004518872939925546,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector tilt = 9.858 deg",
+   "reference": 9.858,
+   "openem": 9.795,
+   "rel_diff": 0.006390748630553927,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector waist = 2.373 um",
+   "reference": 2.373,
+   "openem": 2.373,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector period = 0.339 um",
+   "reference": 0.339,
+   "openem": 0.337,
+   "rel_diff": 0.005899705014749268,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Reflector duty cycle = 0.417",
+   "reference": 0.417,
+   "openem": 0.42,
+   "rel_diff": 0.007194244604316553,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "Single layer | nominal CE = 0.352976 | x_center = 3.569 um | tilt = 9.690 deg | waist = 2.",
+   "reference": 0.352976,
+   "openem": 0.353895,
+   "rel_diff": 0.0026035764471238924,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "Single layer | nominal CE = 0.352976 | x_center = 3.569 um | tilt = 9.690 deg | waist = 2.",
+   "reference": 3.569,
+   "openem": 3.573,
+   "rel_diff": 0.0011207621182404044,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "Single layer | nominal CE = 0.352976 | x_center = 3.569 um | tilt = 9.690 deg | waist = 2.",
+   "reference": 9.69,
+   "openem": 9.846,
+   "rel_diff": 0.016099071207430402,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "Single layer | nominal CE = 0.352976 | x_center = 3.569 um | tilt = 9.690 deg | waist = 2.",
+   "reference": 2.379,
+   "openem": 2.378,
+   "rel_diff": 0.0004203446826397183,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "With reflector | nominal CE = 0.685303 | x_center = 3.762 um | tilt = 9.858 deg | waist = ",
+   "reference": 0.685303,
+   "openem": 0.682811,
+   "rel_diff": 0.003636347717724933,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "With reflector | nominal CE = 0.685303 | x_center = 3.762 um | tilt = 9.858 deg | waist = ",
+   "reference": 3.762,
+   "openem": 3.779,
+   "rel_diff": 0.004518872939925546,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "With reflector | nominal CE = 0.685303 | x_center = 3.762 um | tilt = 9.858 deg | waist = ",
+   "reference": 9.858,
+   "openem": 9.795,
+   "rel_diff": 0.006390748630553927,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "With reflector | nominal CE = 0.685303 | x_center = 3.762 um | tilt = 9.858 deg | waist = ",
+   "reference": 2.373,
+   "openem": 2.373,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.08918673119178964
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.07786466053230356
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.08066419171880614
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.04143337066069429
+  },
+  {
+   "cell": 13,
+   "index": 0,
+   "pixel_diff": 0.06281689873477794
+  },
+  {
+   "cell": 13,
+   "index": 1,
+   "pixel_diff": 0.07784988838460742
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04284247102750742
+  }
+ ]
+}

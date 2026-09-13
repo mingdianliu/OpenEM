@@ -1,0 +1,57 @@
+{
+ "notebook": "TimeModulationTutorial",
+ "category": "Tutorial",
+ "verdict": "close",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 27,
+  "openem": 27,
+  "mismatched": 4
+ },
+ "summary": {
+  "n_numbers_total": 2,
+  "n_numbers_compared": 2,
+  "max_rel_diff": 0.15912482099152797,
+  "n_over_5pct": 1,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.08724407868325973
+ },
+ "numbers": [
+  {
+   "cell": 16,
+   "label": "The relative difference of photon number with modulation is -0.008978487924419219",
+   "reference": -0.008978487924419219,
+   "openem": -0.007549787640671415,
+   "rel_diff": 0.15912482099152797,
+   "near_zero": false
+  },
+  {
+   "cell": 18,
+   "label": "The relative difference of photon number with modulation is -0.008746811484164705",
+   "reference": -0.008746811484164705,
+   "openem": -0.008610589314596425,
+   "rel_diff": 0.015573923116429033,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.08724407868325973
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.05051612684874945
+  },
+  {
+   "cell": 25,
+   "index": 0,
+   "pixel_diff": 0.05061427556097066
+  }
+ ]
+}

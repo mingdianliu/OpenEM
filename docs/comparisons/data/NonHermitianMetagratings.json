@@ -1,0 +1,64 @@
+{
+ "notebook": "NonHermitianMetagratings",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 1,
+  "n_numbers_compared": 1,
+  "max_rel_diff": 0.0003056234718826069,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 6,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.1422049284888362
+ },
+ "numbers": [
+  {
+   "cell": 11,
+   "label": "C_exc = 0.9816",
+   "reference": 0.9816,
+   "openem": 0.9819,
+   "rel_diff": 0.0003056234718826069,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 3,
+   "index": 0,
+   "pixel_diff": 0.054599797365754814
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.034022289766970616
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0333468422830125
+  },
+  {
+   "cell": 10,
+   "index": 0,
+   "pixel_diff": 0.057098400027060854
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.1422049284888362
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.024262827954492687
+  }
+ ]
+}

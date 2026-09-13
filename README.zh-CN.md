@@ -110,6 +110,7 @@ transmission = 0.8310044973694679
 | [`docs/tutorial.md`](docs/tutorial.md) | 三步上手：平板透射对解析公式、波导模式源与模式监视器、用 autograd 求梯度 |
 | [`docs/architecture.md`](docs/architecture.md) | 目录树、每个模块一行职责，以及测试锁住的两条 import 边界 |
 | [`docs/validation.md`](docs/validation.md) | 128 本 notebook 的逐本对照 |
+| [`docs/comparisons/`](docs/comparisons/) | 同一批对照的完整数据：6,003 个配对数字、1,125 张图，一本一页外加一份 JSON |
 | [`docs/performance.md`](docs/performance.md) | 与参考实现的逐例耗时对照 |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | 改求解器代码的规矩：金标准必须保持按位相同 |
 

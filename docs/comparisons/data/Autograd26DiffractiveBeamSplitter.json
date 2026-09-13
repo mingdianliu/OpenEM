@@ -1,0 +1,139 @@
+{
+ "notebook": "Autograd26DiffractiveBeamSplitter",
+ "category": "Inverse Design",
+ "verdict": "trajectory divergence",
+ "reference_source": "official archived output",
+ "cells": {
+  "reference": 21,
+  "openem": 21,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 11,
+  "n_numbers_compared": 11,
+  "max_rel_diff": 51.78571428571428,
+  "n_over_5pct": 3,
+  "n_over_20pct": 1,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 6,
+  "max_pixel_diff": 0.2956282031371331
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "Reference power (power0): 0.9675",
+   "reference": 0.9675,
+   "openem": 0.9676,
+   "rel_diff": 0.0001033591731266036,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Loss value (maximize): 0.8790",
+   "reference": 0.879,
+   "openem": 0.8789,
+   "rel_diff": 0.00011376564277586916,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Fab penalty: 9.9816e-01",
+   "reference": 0.99816,
+   "openem": 0.99816,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 13,
+   "label": "Efficiency: 0.9999",
+   "reference": 0.9999,
+   "openem": 0.9999,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Gradient norm: 1.249e-03",
+   "reference": 0.001249,
+   "openem": 0.001174,
+   "rel_diff": 0.060048038430744584,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Gradient range: [-1.059e-05, 5.702e-06]",
+   "reference": -1.059e-05,
+   "openem": -1.015e-05,
+   "rel_diff": 0.041548630783758346,
+   "near_zero": false
+  },
+  {
+   "cell": 14,
+   "label": "Gradient range: [-1.059e-05, 5.702e-06]",
+   "reference": 5.702e-06,
+   "openem": 5.862e-06,
+   "rel_diff": 0.028060329708874107,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "Efficiency: 1.00",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 15,
+   "label": "RMSE: 13.68",
+   "reference": 13.68,
+   "openem": 13.68,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "Efficiency: 0.89",
+   "reference": 0.89,
+   "openem": 0.94,
+   "rel_diff": 0.0561797752808988,
+   "near_zero": false
+  },
+  {
+   "cell": 20,
+   "label": "RMSE: 0.14",
+   "reference": 0.14,
+   "openem": 7.39,
+   "rel_diff": 51.78571428571428,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.04088429027789557
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.0787595417854495
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.22119855384727752
+  },
+  {
+   "cell": 18,
+   "index": 0,
+   "pixel_diff": 0.11113671686585562
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.2956282031371331
+  }
+ ]
+}

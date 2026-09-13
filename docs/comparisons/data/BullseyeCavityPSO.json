@@ -1,0 +1,157 @@
+{
+ "notebook": "BullseyeCavityPSO",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 20,
+  "openem": 20,
+  "mismatched": 1
+ },
+ "summary": {
+  "n_numbers_total": 12,
+  "n_numbers_compared": 12,
+  "max_rel_diff": 0.0,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 7,
+  "n_figures_openem": 7,
+  "max_pixel_diff": 0.6226442307692308
+ },
+ "numbers": [
+  {
+   "cell": 10,
+   "label": "Best Parameters: r: 0.7463241440689826 p: 0.3812907960183133 w:",
+   "reference": 0.7463241440689826,
+   "openem": 0.7463241440689826,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "Best Parameters: r: 0.7463241440689826 p: 0.3812907960183133 w:",
+   "reference": 0.3812907960183133,
+   "openem": 0.3812907960183133,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0.1245569125769858 h: 0.26602630907617625 t_sio2:",
+   "reference": 0.1245569125769858,
+   "openem": 0.1245569125769858,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0.1245569125769858 h: 0.26602630907617625 t_sio2:",
+   "reference": 0.26602630907617625,
+   "openem": 0.26602630907617625,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0.6492437787750074 dcf: 1.0869886995014149",
+   "reference": 0.6492437787750074,
+   "openem": 0.6492437787750074,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 10,
+   "label": "0.6492437787750074 dcf: 1.0869886995014149",
+   "reference": 1.0869886995014149,
+   "openem": 1.0869886995014149,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "r_cav = 0.746 um",
+   "reference": 0.746,
+   "openem": 0.746,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "p_bragg = 0.381 um",
+   "reference": 0.381,
+   "openem": 0.381,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "w_bragg = 0.125 um",
+   "reference": 0.125,
+   "openem": 0.125,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "h = 0.266",
+   "reference": 0.266,
+   "openem": 0.266,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "t_sio2 = 0.649 um",
+   "reference": 0.649,
+   "openem": 0.649,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "d_cf = 1.087 um",
+   "reference": 1.087,
+   "openem": 1.087,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.06940584843878692
+  },
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.6226442307692308
+  },
+  {
+   "cell": 11,
+   "index": 0,
+   "pixel_diff": 0.03962326322148388
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.05972221240168662
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04312235625881247
+  },
+  {
+   "cell": 17,
+   "index": 0,
+   "pixel_diff": 0.04094681787431531
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.03147761842677097
+  }
+ ]
+}

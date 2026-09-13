@@ -1,0 +1,110 @@
+{
+ "notebook": "SourceNormalization",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 37,
+  "openem": 37,
+  "mismatched": 7
+ },
+ "summary": {
+  "n_numbers_total": 3,
+  "n_numbers_compared": 3,
+  "max_rel_diff": 0.007462686567164198,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 12,
+  "n_figures_openem": 12,
+  "max_pixel_diff": 0.06733687339966661
+ },
+ "numbers": [
+  {
+   "cell": 12,
+   "label": "Flux:\t\t\t0.00134 [W]",
+   "reference": 0.00134,
+   "openem": 0.00133,
+   "rel_diff": 0.007462686567164198,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "Flux analytic:\t\t0.00133 [W]",
+   "reference": 0.00133,
+   "openem": 0.00133,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 12,
+   "label": "E0:\t\t\t1.00918 [V/µm]",
+   "reference": 1.00918,
+   "openem": 1.00616,
+   "rel_diff": 0.0029925285875661654,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 7,
+   "index": 0,
+   "pixel_diff": 0.0003958753950940621
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.0038544508259385373
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 19,
+   "index": 0,
+   "pixel_diff": 0.02171796783036198
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.06733687339966661
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.06192248327902589
+  },
+  {
+   "cell": 25,
+   "index": 0,
+   "pixel_diff": 0.03856799862802264
+  },
+  {
+   "cell": 27,
+   "index": 0,
+   "pixel_diff": 0.00017765144785930004
+  },
+  {
+   "cell": 30,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 33,
+   "index": 0,
+   "pixel_diff": 0.0181188699600868
+  },
+  {
+   "cell": 36,
+   "index": 0,
+   "pixel_diff": 0.014013954082447233
+  }
+ ]
+}

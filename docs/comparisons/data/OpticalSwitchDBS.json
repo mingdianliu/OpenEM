@@ -1,0 +1,251 @@
+{
+ "notebook": "OpticalSwitchDBS",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 18,
+  "openem": 18,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 25,
+  "n_numbers_compared": 25,
+  "max_rel_diff": 0.001201923076923078,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 5,
+  "n_figures_openem": 5,
+  "max_pixel_diff": 0.17735721069054403
+ },
+ "numbers": [
+  {
+   "cell": 11,
+   "label": "Iteration 1 starts.",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.832 found after 1 evaluation(s).",
+   "reference": 0.832,
+   "openem": 0.833,
+   "rel_diff": 0.001201923076923078,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.832 found after 1 evaluation(s).",
+   "reference": 1.0,
+   "openem": 1.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.859 found after 2 evaluation(s).",
+   "reference": 0.859,
+   "openem": 0.859,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.859 found after 2 evaluation(s).",
+   "reference": 2.0,
+   "openem": 2.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.863 found after 6 evaluation(s).",
+   "reference": 0.863,
+   "openem": 0.863,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.863 found after 6 evaluation(s).",
+   "reference": 6.0,
+   "openem": 6.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.870 found after 7 evaluation(s).",
+   "reference": 0.87,
+   "openem": 0.87,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.870 found after 7 evaluation(s).",
+   "reference": 7.0,
+   "openem": 7.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.871 found after 8 evaluation(s).",
+   "reference": 0.871,
+   "openem": 0.871,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.871 found after 8 evaluation(s).",
+   "reference": 8.0,
+   "openem": 8.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.882 found after 9 evaluation(s).",
+   "reference": 0.882,
+   "openem": 0.882,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.882 found after 9 evaluation(s).",
+   "reference": 9.0,
+   "openem": 9.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.899 found after 10 evaluation(s).",
+   "reference": 0.899,
+   "openem": 0.899,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.899 found after 10 evaluation(s).",
+   "reference": 10.0,
+   "openem": 10.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.916 found after 11 evaluation(s).",
+   "reference": 0.916,
+   "openem": 0.915,
+   "rel_diff": 0.00109170305676856,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.916 found after 11 evaluation(s).",
+   "reference": 11.0,
+   "openem": 11.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.918 found after 13 evaluation(s).",
+   "reference": 0.918,
+   "openem": 0.917,
+   "rel_diff": 0.0010893246187363844,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.918 found after 13 evaluation(s).",
+   "reference": 13.0,
+   "openem": 13.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.922 found after 18 evaluation(s).",
+   "reference": 0.922,
+   "openem": 0.921,
+   "rel_diff": 0.0010845986984815627,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.922 found after 18 evaluation(s).",
+   "reference": 18.0,
+   "openem": 18.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.924 found after 24 evaluation(s).",
+   "reference": 0.924,
+   "openem": 0.924,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.924 found after 24 evaluation(s).",
+   "reference": 24.0,
+   "openem": 24.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.927 found after 26 evaluation(s).",
+   "reference": 0.927,
+   "openem": 0.927,
+   "rel_diff": 0.0,
+   "near_zero": false
+  },
+  {
+   "cell": 11,
+   "label": "A best objective of 0.927 found after 26 evaluation(s).",
+   "reference": 26.0,
+   "openem": 26.0,
+   "rel_diff": 0.0,
+   "near_zero": false
+  }
+ ],
+ "figures": [
+  {
+   "cell": 5,
+   "index": 0,
+   "pixel_diff": 0.17735721069054403
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.03817836934156379
+  },
+  {
+   "cell": 14,
+   "index": 0,
+   "pixel_diff": 0.04036386062288005
+  },
+  {
+   "cell": 15,
+   "index": 0,
+   "pixel_diff": 0.04011001419538005
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.059930667413684434
+  }
+ ]
+}

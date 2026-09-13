@@ -1,0 +1,40 @@
+{
+ "notebook": "FreeFormCoupler",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 11,
+  "openem": 11,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.07839813661731469
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.036044355436878804
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.07839813661731469
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.0390762014818843
+  }
+ ]
+}

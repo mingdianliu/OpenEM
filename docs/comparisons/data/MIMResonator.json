@@ -1,0 +1,40 @@
+{
+ "notebook": "MIMResonator",
+ "category": "Example Library",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 10,
+  "openem": 10,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 3,
+  "n_figures_openem": 3,
+  "max_pixel_diff": 0.06195425321073909
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 6,
+   "index": 0,
+   "pixel_diff": 0.061251080236654924
+  },
+  {
+   "cell": 8,
+   "index": 0,
+   "pixel_diff": 0.06195425321073909
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.054814470524440315
+  }
+ ]
+}

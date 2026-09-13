@@ -1,0 +1,115 @@
+{
+ "notebook": "FieldProjections",
+ "category": "Tutorial",
+ "verdict": "agree",
+ "reference_source": "reference rerun",
+ "cells": {
+  "reference": 38,
+  "openem": 38,
+  "mismatched": 0
+ },
+ "summary": {
+  "n_numbers_total": 0,
+  "n_numbers_compared": 0,
+  "max_rel_diff": null,
+  "n_over_5pct": 0,
+  "n_over_20pct": 0,
+  "n_near_zero_over_5pct": 0,
+  "n_figures_reference": 18,
+  "n_figures_openem": 18,
+  "max_pixel_diff": 0.1801975469445349
+ },
+ "numbers": [],
+ "figures": [
+  {
+   "cell": 4,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 9,
+   "index": 0,
+   "pixel_diff": 0.0016264355959012447
+  },
+  {
+   "cell": 12,
+   "index": 0,
+   "pixel_diff": 0.0016333127020149922
+  },
+  {
+   "cell": 16,
+   "index": 0,
+   "pixel_diff": 0.001664259679526855
+  },
+  {
+   "cell": 20,
+   "index": 0,
+   "pixel_diff": 0.009618880998936572
+  },
+  {
+   "cell": 20,
+   "index": 1,
+   "pixel_diff": 0.0020278877603718366
+  },
+  {
+   "cell": 21,
+   "index": 0,
+   "pixel_diff": 0.1801975469445349
+  },
+  {
+   "cell": 21,
+   "index": 1,
+   "pixel_diff": 0.013250304936765744
+  },
+  {
+   "cell": 22,
+   "index": 0,
+   "pixel_diff": 0.002389794374527199
+  },
+  {
+   "cell": 23,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 29,
+   "index": 0,
+   "pixel_diff": 0.07801881461798078
+  },
+  {
+   "cell": 29,
+   "index": 1,
+   "pixel_diff": 0.0821917808219178
+  },
+  {
+   "cell": 29,
+   "index": 2,
+   "pixel_diff": 0.05719979841480735
+  },
+  {
+   "cell": 30,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 32,
+   "index": 0,
+   "pixel_diff": 0.07801881461798078
+  },
+  {
+   "cell": 32,
+   "index": 1,
+   "pixel_diff": 0.08132893511094821
+  },
+  {
+   "cell": 34,
+   "index": 0,
+   "pixel_diff": 0.0
+  },
+  {
+   "cell": 36,
+   "index": 0,
+   "pixel_diff": 0.0016652757757378044
+  }
+ ]
+}
